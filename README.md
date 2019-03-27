@@ -1,5 +1,6 @@
 # viliusdzemyda.com
 
-This repo contains the source code and documentation powering https://viliusdzemyda.com.
+This is my online resume website.
 
 ## UX
+
