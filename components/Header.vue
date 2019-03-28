@@ -5,17 +5,17 @@
         <p class="Hero__Title">{{ msg }}</p>
         <p class="Hero__Subtitle">
           My name is Vilius,
-          <br>I am Front-End Web Developer,
-          <br>and I build web
-          applications.
+          <br>I am Front-End Web Developer
         </p>
-        <a href="mailto:hello@viliusdzemyda.com?subject=Say Hi" class="button is-primary">Say Hi</a>
+        <MailButton/>
       </div>
     </section>
   </header>
 </template>
 
 <script>
+import MailButton from '~/components/MailButton.vue'
+
 export default {
   name: 'Navbar',
   data() {
@@ -23,14 +23,16 @@ export default {
       msg: '< Hello />',
     }
   },
+  components: {
+    MailButton,
+  },
 }
 </script>
 
 <style lang="scss" scoped>
 @import '~assets/scss/_variables.scss';
 
-$app-header-background-colour: $color-sky-light !default;
-$hero-content-text-color: $color-ink !default;
+$app-header-background-colour: #fff !default;
 
 .AppHeader {
   background-color: $app-header-background-colour;
@@ -43,11 +45,13 @@ $hero-content-text-color: $color-ink !default;
   background-repeat: no-repeat;
   height: 500px;
   position: relative;
-  max-width: 800px;
+  max-width: 500px;
   margin: 0 auto;
 
   @media screen and (min-width: 1088px) {
     height: 600px;
+    max-width: 800px;
+    background-size: auto 520px;
   }
 }
 
@@ -55,26 +59,26 @@ $hero-content-text-color: $color-ink !default;
   padding: 24px 0;
   max-width: 600px;
   margin: 0 auto;
-  color: $hero-content-text-color;
-  text-align: center;
-
+  text-align: left;
   position: absolute;
-  top: 50px;
-  left: 0;
+  top: 10px;
+  left: 8%;
   right: 0;
 
   @media screen and (min-width: 1088px) {
-    top: 150px;
+    top: 80px;
   }
 }
 
 .Hero__Title {
-  font-size: 34px;
-  margin-bottom: 24px;
+  font-size: 32px;
+  margin-bottom: 12px;
+  font-weight: 500;
 }
 
 .Hero__Subtitle {
-  font-size: 20px;
-  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 34px;
 }
 </style>

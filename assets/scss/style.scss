@@ -19,26 +19,3 @@
 
 // Theme
 // =============================================================================
-
-$body-background: #fff !default;
-$heading-text-color: $color-ink !default;
-
-body {
-  background: $body-background;
-  color: $heading-text-color;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Overlock', sans-serif;
-  font-weight: 900;
-  color: $heading-text-color;
-}
-
-.main {
-  // min-height: 600px;
-}
