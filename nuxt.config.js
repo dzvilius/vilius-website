@@ -19,8 +19,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css?family=Overlock:400,400i,700,900',
+        href: 'https://fonts.googleapis.com/css?family=Ubuntu:400,500,700',
       },
     ],
     script: [{ src: '', body: true }],
