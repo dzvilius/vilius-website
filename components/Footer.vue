@@ -20,9 +20,9 @@
 </template>
 
 <script>
-import IconLinkedIn from '~/components/icons/IconLinkedIn.vue'
-import IconGitHub from '~/components/icons/IconGitHub.vue'
-import IconMail from '~/components/icons/IconMail.vue'
+import IconLinkedIn from '~/components/Icons/IconLinkedIn.vue'
+import IconGitHub from '~/components/Icons/IconGitHub.vue'
+import IconMail from '~/components/Icons/IconMail.vue'
 
 export default {
   data: function() {
