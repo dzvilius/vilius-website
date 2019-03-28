@@ -28,7 +28,7 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-import IconMenu from '~/components/icons/IconMenu.vue'
+import IconMenu from '~/components/Icons/IconMenu.vue'
 
 export default {
   name: 'Navbar',
