@@ -19,3 +19,5 @@ This is my online resume website.
 #### Supporting Materials
 
 Mindmap - [v1](ux/Mindmap_v1.png)
+
+Wireframe (Mobile) - [v1](ux/Wireframe_Mobile_v1.png)
