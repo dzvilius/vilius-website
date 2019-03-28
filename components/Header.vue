@@ -18,7 +18,7 @@
 @import '~assets/scss/_variables.scss';
 
 $header-background-colour: $color-sky-light !default;
-$header-content-text-color: $color-ink !default;
+$hero-content-text-color: $color-ink !default;
 
 .header {
   background-color: $header-background-colour;
@@ -45,7 +45,7 @@ $header-content-text-color: $color-ink !default;
   padding: 24px 0;
   max-width: 600px;
   margin: 0 auto;
-  color: $header-content-text-color;
+  color: $hero-content-text-color;
   text-align: center;
 }
 
