@@ -1,9 +1,9 @@
 <template>
-  <header class="header">
-    <section class="hero">
-      <div class="hero__content">
-        <p class="hero-title">Hello :)</p>
-        <p class="hero-subtitle">
+  <header class="AppHeader">
+    <section class="Hero">
+      <div class="Hero__Content">
+        <p class="Hero__Title">Hello :)</p>
+        <p class="Hero__Subtitle">
           My name is Vilius,
           <br>I am Front-End Web Developer,
           <br>and I build web applications.
@@ -20,7 +20,7 @@
 $header-background-colour: $color-sky-light !default;
 $hero-content-text-color: $color-ink !default;
 
-.header {
+.AppHeader {
   background-color: $header-background-colour;
   position: relative;
   height: 400px;
@@ -30,7 +30,7 @@ $hero-content-text-color: $color-ink !default;
   }
 }
 
-.hero {
+.Hero {
   position: absolute;
   top: 50px;
   left: 0;
@@ -41,7 +41,7 @@ $hero-content-text-color: $color-ink !default;
   }
 }
 
-.hero__content {
+.Hero__Content {
   padding: 24px 0;
   max-width: 600px;
   margin: 0 auto;
@@ -49,12 +49,12 @@ $hero-content-text-color: $color-ink !default;
   text-align: center;
 }
 
-.hero-title {
+.Hero__Title {
   font-size: 34px;
   margin-bottom: 24px;
 }
 
-.hero-subtitle {
+.Hero__Subtitle {
   font-size: 20px;
   margin-bottom: 24px;
 }

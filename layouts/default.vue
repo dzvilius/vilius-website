@@ -1,7 +1,7 @@
 <template>
-  <div class="app">
-    <Navbar/>
-    <nuxt class="main"/>
+  <div class="App">
+    <Navbar class="AppNavbar"/>
+    <nuxt class="AppContainer"/>
   </div>
 </template>
 
