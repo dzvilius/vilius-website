@@ -8,7 +8,7 @@
           <br>I am Front-End Web Developer,
           <br>and I build web applications.
         </p>
-        <a href="#" class="button is-primary">Say Hi</a>
+        <a href="mailto:hello@viliusdzemyda.com?subject=Say Hi" class="button is-primary">Say Hi</a>
       </div>
     </section>
   </header>

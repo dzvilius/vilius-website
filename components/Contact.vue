@@ -4,7 +4,7 @@
       <div class="ContactCta">
         <h2 class="is-size-3">Are you hiring?</h2>
         <p class="ContactCta__Subtitle">I am here to help you.</p>
-        <a href="#" class="button is-primary">Say Hi</a>
+        <a href="mailto:hello@viliusdzemyda.com?subject=Say Hi" class="button is-primary">Say Hi</a>
       </div>
     </div>
   </section>
