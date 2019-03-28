@@ -2,7 +2,6 @@
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
-        <Logo/>
         <a
           role="button"
           class="navbar-burger"
@@ -27,7 +26,7 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+// import Logo from '~/components/Logo.vue'
 import IconMenu from '~/components/Icons/IconMenu.vue'
 
 export default {
@@ -38,7 +37,6 @@ export default {
     }
   },
   components: {
-    Logo,
     IconMenu,
   },
 }
