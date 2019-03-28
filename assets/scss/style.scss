@@ -1,10 +1,20 @@
+// Vilius Dzemyda
+// Author: Vilius Dzemyda
+// Built with Sass - http://sass-lang.com/
+
 @import '_variables.scss';
+
+// BULMA CSS
+// =============================================================================
 
 @import '~bulma/sass/utilities/_all';
 @import '~bulma/sass/base/_all';
 @import '~bulma/sass/elements/button';
 @import '~bulma/sass/elements/container';
 @import '~bulma/sass/components/navbar';
+
+// Theme
+// =============================================================================
 
 $body-background: $color-sky-lighter !default;
 $heading-text-color: $color-ink !default;
