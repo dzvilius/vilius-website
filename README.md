@@ -21,3 +21,5 @@ This is my online resume website.
 Mindmap - [v1](ux/Mindmap_v1.png)
 
 Wireframe (Mobile) - [v1](ux/Wireframe_Mobile_v1.png)
+
+Design (Mobile) - [v1](ux/Design_Mobile_v1.png)
