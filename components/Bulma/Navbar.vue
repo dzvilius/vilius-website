@@ -17,8 +17,8 @@
       </div>
       <div id="navbarMenu" class="navbar-menu" v-bind:class="{ 'is-active' : showMenu }">
         <div class="navbar-end">
-          <nuxt-link to="#" class="navbar-item">About</nuxt-link>
-          <nuxt-link to="#" class="navbar-item">Contact</nuxt-link>
+          <nuxt-link to="/#About#" v-scroll-to="'#About'" class="navbar-item">About</nuxt-link>
+          <nuxt-link to="/#Contact" v-scroll-to="'#Contact'" class="navbar-item">Contact</nuxt-link>
           <a href="./files/Vilius_Dzemyda_CV.pdf" class="navbar-item" target="_blank">CV</a>
         </div>
       </div>
