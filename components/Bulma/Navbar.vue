@@ -11,7 +11,7 @@
           v-on:click="showMenu = !showMenu"
           v-bind:class="{ 'is-active' : showMenu }"
         >
-          <IconMenu class="icon-menu"/>
+          <IconMenu class="MenuIcon"/>
         </a>
       </div>
       <div id="navbarMenu" class="navbar-menu" v-bind:class="{ 'is-active' : showMenu }">
@@ -66,13 +66,13 @@ $icon-menu-color: $color-ink !default;
   }
 }
 
-.icon-menu {
+.MenuIcon {
   position: absolute;
-  top: calc(50% - 19px);
-  left: calc(50% - 19px);
-  width: 38px;
-  height: 38px;
-  stroke-width: 3;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  stroke-width: 2;
   color: $icon-menu-color;
 }
 </style>
