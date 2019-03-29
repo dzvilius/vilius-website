@@ -8,7 +8,7 @@
         <a href="https://github.com/viliusdev" class="SocialLink" target="_blank">
           <IconGitHub class="SocialIcon"/>
         </a>
-        <a href="mailto:hello@viliusdzemyda.com?subject=Say Hi" class="SocialLink">
+        <a href="mailto:hello@viliusdzemyda.com?subject=Hi" class="SocialLink">
           <IconMail class="SocialIcon"/>
         </a>
       </div>
