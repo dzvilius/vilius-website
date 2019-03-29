@@ -3,10 +3,10 @@
     <section class="Hero">
       <div class="Hero__Content">
         <p class="Hero__Title">{{ msg }}</p>
-        <p class="Hero__Subtitle">
+        <h1 class="Hero__Subtitle">
           My name is Vilius,
           <br>I am Front-End Web Developer
-        </p>
+        </h1>
         <MailButton/>
       </div>
     </section>
