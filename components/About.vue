@@ -45,6 +45,7 @@
 
 .AboutSection {
   background: #f4f6f8;
+  padding-bottom: 72px;
 }
 
 .AboutSection__Title {
@@ -72,7 +73,7 @@
   top: -40px;
 
   img {
-    box-shadow: 6px 6px 0px #dcefff;
+    box-shadow: 2px 12px 0px #dcefff;
   }
 }
 </style>
