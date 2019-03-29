@@ -52,7 +52,7 @@ $icon-menu-color: $color-ink !default;
 
 .navbar-item {
   font-size: 15px;
-  padding: 0.3rem 1.5rem;
+  padding: 6px 24px;
   text-transform: uppercase;
   font-weight: 700;
   color: $color-one;
@@ -75,13 +75,15 @@ $icon-menu-color: $color-ink !default;
 
 .navbar-menu {
   @media screen and (max-width: 1087px) {
-    right: 20px;
+    right: 12px;
+    top: 70px;
     position: absolute;
     width: 120px;
     background-color: $navbar-menu-background-color;
-    border-radius: 12px;
-    padding: 20px 0;
+    border-radius: 8px;
+    padding: 12px 0;
     box-shadow: 3px 6px 0px #dcefff;
+    border: 1px solid #dcefff;
   }
 }
 
