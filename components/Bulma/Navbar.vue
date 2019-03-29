@@ -75,8 +75,8 @@ $icon-menu-color: $color-ink !default;
 
 .navbar-menu {
   @media screen and (max-width: 1087px) {
-    right: 12px;
-    top: 70px;
+    right: 16px;
+    top: 74px;
     position: absolute;
     width: 120px;
     background-color: $navbar-menu-background-color;
