@@ -23,18 +23,23 @@ export default {
 <style lang="scss" scoped>
 @import '~assets/scss/_variables.scss';
 
-$contact-section-background: $color-sky-lighter !default;
+$contact-section-background: #fff !default;
 
 .ContactSection {
   background: $contact-section-background;
 }
 
 .ContactCta {
+  padding-top: 24px;
   text-align: center;
   font-size: 18px;
+
+  h2 {
+    font-weight: 500;
+  }
 }
 
 .ContactCta__Subtitle {
-  margin: 12px 0 24px 0;
+  margin: 16px 0 36px 0;
 }
 </style>
