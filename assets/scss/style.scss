@@ -19,3 +19,13 @@
 
 // Theme
 // =============================================================================
+
+::-moz-selection {
+  background-color: #66eecc;
+  color: #222;
+}
+
+::selection {
+  background-color: #66eecc;
+  color: #222;
+}
