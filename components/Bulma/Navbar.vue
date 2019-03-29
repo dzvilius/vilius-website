@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
         <a
@@ -45,14 +45,15 @@ export default {
 <style lang="scss" scoped>
 @import '~assets/scss/_variables.scss';
 
-$navbar-menu-background: $color-sky-lighter !default;
+$navbar-menu-background-color: #fff !default;
 $icon-menu-color: $color-ink !default;
 
 .navbar-item {
-  font-size: 14px;
-  padding: 0.5rem 1.5rem;
+  font-size: 15px;
+  padding: 0.3rem 1.5rem;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
+  color: $color-one;
 
   @media screen and (min-width: 1088px) {
     padding: 0.5rem 1rem;
@@ -60,9 +61,19 @@ $icon-menu-color: $color-ink !default;
   }
 }
 
+.navbar-burger:hover {
+  background-color: transparent;
+}
+
 .navbar-menu {
   @media screen and (max-width: 1087px) {
-    background: $navbar-menu-background;
+    right: 20px;
+    position: absolute;
+    width: 120px;
+    background-color: $navbar-menu-background-color;
+    border-radius: 12px;
+    padding: 20px 0;
+    box-shadow: 3px 6px 0px #dcefff;
   }
 }
 

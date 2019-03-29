@@ -24,7 +24,7 @@ module.exports = {
     ],
     script: [{ src: '', body: true }],
     bodyAttrs: {
-      class: '',
+      class: 'has-navbar-fixed-top',
     },
   },
 
