@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link to="/" class="Logo">V</nuxt-link>
+  <nuxt-link to="/" v-scroll-to="'#Home'" class="Logo">V</nuxt-link>
 </template>
 
 <style lang="scss" scoped>

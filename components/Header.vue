@@ -1,5 +1,5 @@
 <template>
-  <header class="AppHeader">
+  <header class="AppHeader" id="Home">
     <section class="Hero">
       <div class="Hero__Content">
         <p class="Hero__Title">{{ msg }}</p>
