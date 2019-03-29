@@ -12,7 +12,8 @@ module.exports = {
       {
         hid: 'description',
         name: 'description',
-        content: 'Add text...',
+        content:
+          'My name is Vilius, I am Front-End Web Developer, and I build modern web applications.',
       },
     ],
     link: [
