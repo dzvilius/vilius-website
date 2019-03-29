@@ -41,36 +41,42 @@ export default {
 <style lang="scss" scoped>
 @import '~assets/scss/_variables.scss';
 
-$social-icon-background: $color-sky-lighter !default;
-$social-icon-color: $color-primary !default;
+$social-icon-background: #f8fafb !default;
+$social-icon-color: $color-one !default;
 
 .AppFooter {
   text-align: center;
 }
 
 .AppFooter__Social {
-  padding: 72px 0;
+  padding: 48px 0;
   text-align: center;
 }
 
 .SocialLink {
   display: inline-block;
   margin: 0 12px;
-  padding: 12px;
+  padding: 10px;
   background: $social-icon-background;
   color: $social-icon-color;
   border-radius: 100px;
+
+  &:hover {
+    background: #ddeeff;
+  }
 }
 
 .SocialIcon {
-  width: 32px;
-  height: 32px;
-  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  vertical-align: top;
 }
 
 .AppFooter__Copyright {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  color: #4f5670;
+  font-size: 14px;
 }
 </style>
 
