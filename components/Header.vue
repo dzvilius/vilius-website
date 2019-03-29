@@ -72,7 +72,7 @@ $app-header-background-colour: #fff !default;
 }
 
 .Hero__Title {
-  font-size: 26px;
+  font-size: 28px;
   margin-bottom: 12px;
   font-weight: 500;
 
