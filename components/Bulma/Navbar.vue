@@ -66,7 +66,7 @@ $icon-menu-color: $color-ink !default;
 .NavbarLogo {
   position: absolute;
   top: 8px;
-  left: 23px;
+  left: 8px;
 }
 
 .navbar-burger:hover {

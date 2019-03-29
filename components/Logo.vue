@@ -7,7 +7,7 @@
 
 .Logo {
   font-family: 'Monoton', sans-serif;
-  color: #222;
+  color: #223344;
   padding: 12px;
   font-size: 48px;
   line-height: 1;

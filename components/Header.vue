@@ -57,12 +57,12 @@ $app-header-background-colour: #fff !default;
 }
 
 .Hero__Content {
-  padding: 36px;
+  padding: 28px;
   margin: 0 auto;
   text-align: left;
   position: absolute;
   top: 0;
-  left: 0%;
+  left: 24px;
   right: 0;
 
   @media screen and (min-width: 1088px) {
@@ -72,9 +72,13 @@ $app-header-background-colour: #fff !default;
 }
 
 .Hero__Title {
-  font-size: 32px;
+  font-size: 26px;
   margin-bottom: 12px;
   font-weight: 500;
+
+  @media screen and (min-width: 1088px) {
+    font-size: 32px;
+  }
 }
 
 .Hero__Subtitle {
