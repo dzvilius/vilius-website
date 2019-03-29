@@ -3,7 +3,7 @@
     <div class="container">
       <h2 class="is-size-2 has-text-centered">About</h2>
       <div class="content is-medium Profile">
-        <figure class="image is-240x240 ProfileImage">
+        <figure class="image is-200x200 ProfileImage">
           <img src="images/me.jpg" class="is-rounded" alt="Vilius Dzemyda">
         </figure>
         <h3 class="is-uppercase">Profile</h3>
@@ -55,5 +55,10 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 142px;
+
+  img {
+    box-shadow: 6px 6px 0px #dcefff;
+    display: blox;
+  }
 }
 </style>
