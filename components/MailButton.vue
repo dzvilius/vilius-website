@@ -6,7 +6,7 @@
 @import '~assets/scss/_variables.scss';
 
 .MailButton {
-  box-shadow: 1px 2px 0px #555577;
+  box-shadow: 2px 3px 0px #555577;
   font-weight: 500;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
 }
