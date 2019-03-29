@@ -2,6 +2,7 @@
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
+        <Logo class="NavbarLogo"/>
         <a
           role="button"
           class="navbar-burger"
@@ -26,7 +27,7 @@
 </template>
 
 <script>
-// import Logo from '~/components/Logo.vue'
+import Logo from '~/components/Logo.vue'
 import IconMenu from '~/components/Icons/IconMenu.vue'
 
 export default {
@@ -37,6 +38,7 @@ export default {
     }
   },
   components: {
+    Logo,
     IconMenu,
   },
 }
@@ -59,6 +61,12 @@ $icon-menu-color: $color-ink !default;
     padding: 0.5rem 1rem;
     font-size: 16px;
   }
+}
+
+.NavbarLogo {
+  position: absolute;
+  top: 8px;
+  left: 23px;
 }
 
 .navbar-burger:hover {

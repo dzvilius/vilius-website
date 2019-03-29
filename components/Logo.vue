@@ -1,19 +1,15 @@
 <template>
-  <nuxt-link to="/" class="Logo">
-    <img src="images/logo.png" class="LogoImg" alt="Vilius Dzemyda">
-  </nuxt-link>
+  <nuxt-link to="/" class="Logo">V</nuxt-link>
 </template>
 
 <style lang="scss" scoped>
 @import '~assets/scss/_variables.scss';
 
 .Logo {
-  padding-top: 18px;
-  padding-left: 24px;
-}
-
-.LogoImg {
-  height: auto;
-  width: 38px;
+  font-family: 'Monoton', sans-serif;
+  color: #222;
+  padding: 12px;
+  font-size: 48px;
+  line-height: 1;
 }
 </style>
