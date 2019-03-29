@@ -1,19 +1,20 @@
 <template>
   <section class="section AboutSection" id="About">
     <div class="container">
-      <h2 class="is-size-2 has-text-centered">About</h2>
-      <div class="content is-medium Profile">
+      <h2 class="is-size-3 has-text-centered AboutSection__Title">About</h2>
+      <div class="TitleLine"></div>
+      <div class="content Profile">
         <figure class="image is-200x200 ProfileImage">
           <img src="images/me.jpg" class="is-rounded" alt="Vilius Dzemyda">
         </figure>
-        <h3 class="is-uppercase">Profile</h3>
+        <h3 class="is-uppercase is-size-5">Profile</h3>
         <p>Strong technical and communication skills. More than six years of experience in building and maintaining client-side web applications. Good understanding of UI design patterns, user experience, technology stacks, development tools, and best practices.</p>
         <p>Open-minded, analytical, logical, able to grasp difficult concepts and good at troubleshooting.</p>
       </div>
       <div class="columns is-tablet">
         <div class="column is-half-tablet">
-          <div class="content is-medium">
-            <h3 class="is-uppercase">Skills</h3>
+          <div class="content">
+            <h3 class="is-uppercase is-size-5">Skills</h3>
             <p>
               Problem Solving, Communication
               <br>Website Development, SEO
@@ -23,8 +24,8 @@
           </div>
         </div>
         <div class="column is-half-tablet">
-          <div class="content is-medium">
-            <h3 class="is-uppercase">Tech</h3>
+          <div class="content">
+            <h3 class="is-uppercase is-size-5">Tech</h3>
             <p>
               HTML, CSS, JavaScript, Vue.js
               <br>Bulma, Bootstrap, SCSS
@@ -46,19 +47,32 @@
   background: #f4f6f8;
 }
 
+.AboutSection__Title {
+  color: $color-one;
+  font-weight: 500;
+}
+
+.TitleLine {
+  background: #db5c6e;
+  margin: 12px auto;
+  border-radius: 4px;
+  height: 4px;
+  width: 60px;
+}
+
 .Profile {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 110px;
+  margin-bottom: 48px;
 }
 
 .ProfileImage {
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 142px;
+  position: relative;
+  top: -40px;
 
   img {
     box-shadow: 6px 6px 0px #dcefff;
-    display: blox;
   }
 }
 </style>
