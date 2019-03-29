@@ -42,6 +42,10 @@
 <style lang="scss" scoped>
 @import '~assets/scss/_variables.scss';
 
+.AboutSection {
+  background: #f4f6f8;
+}
+
 .Profile {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;

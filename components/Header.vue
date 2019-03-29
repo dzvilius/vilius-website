@@ -41,32 +41,33 @@ $app-header-background-colour: #fff !default;
 .Hero {
   background-image: url('~assets/images/intro.jpg');
   background-size: auto 340px;
-  background-position: bottom right;
+  background-position: right 80%;
   background-repeat: no-repeat;
   height: 500px;
   position: relative;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
 
   @media screen and (min-width: 1088px) {
-    height: 600px;
-    max-width: 800px;
+    height: 700px;
+    max-width: 900px;
     background-size: auto 520px;
+    background-position: right 50%;
   }
 }
 
 .Hero__Content {
-  padding: 24px 0;
-  max-width: 600px;
+  padding: 36px;
   margin: 0 auto;
   text-align: left;
   position: absolute;
-  top: 10px;
-  left: 8%;
+  top: 0;
+  left: 0%;
   right: 0;
 
   @media screen and (min-width: 1088px) {
-    top: 80px;
+    top: 120px;
+    left: 0;
   }
 }
 
