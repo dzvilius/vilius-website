@@ -12,7 +12,7 @@
         <p>Open-minded, analytical, logical, able to grasp difficult concepts and good at troubleshooting.</p>
       </div>
       <div class="columns is-tablet">
-        <div class="column is-one-third-tablet">
+        <div class="column is-half-tablet">
           <div class="content">
             <h3 class="is-uppercase is-size-5">Skills</h3>
             <p>
@@ -23,7 +23,7 @@
             </p>
           </div>
         </div>
-        <div class="column is-one-third-tablet">
+        <div class="column is-half-tablet">
           <div class="content">
             <h3 class="is-uppercase is-size-5">Tech</h3>
             <p>
@@ -46,6 +46,10 @@
 .AboutSection {
   background: #f4f6f8;
   padding-bottom: 72px;
+
+  .container {
+    max-width: 800px;
+  }
 }
 
 .AboutSection__Title {
