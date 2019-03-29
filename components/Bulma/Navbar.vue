@@ -69,6 +69,10 @@ $icon-menu-color: $color-ink !default;
   left: 8px;
 }
 
+.navbar-burger {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .navbar-burger:hover {
   background-color: transparent;
 }
