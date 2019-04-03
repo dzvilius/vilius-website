@@ -41,7 +41,7 @@ $app-header-background-colour: #fff !default;
 .Hero {
   background-image: url('~assets/images/intro.jpg');
   background-size: auto 380px;
-  background-position: right 80%;
+  background-position: right 60%;
   background-repeat: no-repeat;
   height: 600px;
   position: relative;
@@ -61,7 +61,7 @@ $app-header-background-colour: #fff !default;
   margin: 0 auto;
   text-align: left;
   position: absolute;
-  top: 24px;
+  top: -10px;
   left: 24px;
   right: 0;
 
