@@ -3,7 +3,7 @@
     href="./files/Vilius_Dzemyda_CV.pdf"
     class="button is-primary ButtonCv"
     target="_blank"
-  >Download a CV</a>
+  >Download CV</a>
 </template>
 
 <style lang="scss" scoped>
