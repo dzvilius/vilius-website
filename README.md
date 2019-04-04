@@ -16,10 +16,15 @@ This is my online resume website.
 - As an employer, I want to view the contact details, so that I can get in touch.
 
 
-#### Supporting Materials
+#### Supporting Materials (v1)
 
-Mindmap - [v1](ux/Mindmap_v1.png)
+- [Mindmap](ux/v1/Mindmap_v1.png)
 
-Wireframe (Mobile) - [v1](ux/Wireframe_Mobile_v1.png)
+**Wireframes**
 
-Design (Mobile) - [v1](ux/Design_Mobile_v1.png)
+- [Home](ux/v1/Wireframes/Home.png)
+
+**Designs**
+
+- [Home](ux/v1/Designs/Home.png)
+
