@@ -1,13 +1,9 @@
 <template>
-  <section class="section ContactSection" id="Contact">
-    <div class="container">
-      <div class="ContactCta">
-        <h2 class="is-size-3">Are you hiring?</h2>
-        <p class="ContactCta__Subtitle">That's great!</p>
-        <ButtonCv/>
-      </div>
-    </div>
-  </section>
+  <div class="ContactCta">
+    <h2 class="is-size-3">Are you hiring?</h2>
+    <p class="ContactCta__Subtitle">That's great!</p>
+    <ButtonCv/>
+  </div>
 </template>
 
 <script>
@@ -23,12 +19,6 @@ export default {
 <style lang="scss" scoped>
 @import '~assets/scss/_variables.scss';
 
-$contact-section-background: #fff !default;
-
-.ContactSection {
-  background: $contact-section-background;
-}
-
 .ContactCta {
   padding-top: 24px;
   text-align: center;
@@ -40,6 +30,6 @@ $contact-section-background: #fff !default;
 }
 
 .ContactCta__Subtitle {
-  margin: 16px 0 36px 0;
+  margin: 16px 0 46px 0;
 }
 </style>
