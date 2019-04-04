@@ -5,7 +5,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: 'Vilius Dzemyda',
+    title: 'Vilius Dzemyda | Front-End Web Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,7 +13,7 @@ module.exports = {
         hid: 'description',
         name: 'description',
         content:
-          'My name is Vilius, I am Front-End Web Developer.',
+          'An experienced Front-End Web Developer based in Ireland. Specialise in HTML, CSS and JavaScript. Good understanding of UI design patterns, user experience, technology stacks, development tools, and best practices.',
       },
     ],
     link: [
