@@ -68,8 +68,8 @@ $icon-menu-color: $color-ink !default;
 
 .NavbarLogo {
   position: absolute;
-  top: 8px;
-  left: 8px;
+  top: 14px;
+  left: 21px;
 }
 
 .navbar-burger {
