@@ -8,7 +8,7 @@
           <img src="images/me.jpg" class="is-rounded" alt="Vilius Dzemyda">
         </figure>
         <h3 class="is-uppercase is-size-5">Profile</h3>
-        <p>I am an experienced web developer based in Ireland. My primary skills are front-end web development and UI design. Currently, I am studying full-stack software development at Code Institute in Dublin, and hoping to transition into more advanced, data-driven software development.</p>
+        <p>I am an experienced web developer based in Ireland. My primary skills are front-end web development and UI design. Currently, I am studying full-stack software development at Code Institute in Dublin, and transitioning into more advanced, data-driven software development.</p>
         <p>Specialise in HTML, CSS and JavaScript. Good understanding of UI design patterns, user experience, technology stacks, development tools, and best practices.</p>
         <p>Open-minded, analytical, logical, able to grasp difficult concepts and good at troubleshooting.</p>
       </div>
