@@ -5,6 +5,9 @@ module.exports = {
    ** Headers of the page
    */
   head: {
+    htmlAttrs: {
+      lang: 'en-gb',
+    },
     title: 'Vilius Dzemyda | Front-End Web Developer',
     meta: [
       { charset: 'utf-8' },
