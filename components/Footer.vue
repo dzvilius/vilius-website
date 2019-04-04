@@ -7,13 +7,20 @@
           class="SocialLink"
           target="_blank"
           rel="noopener"
+          aria-label="LinkedIn"
         >
           <IconLinkedIn class="SocialIcon"/>
         </a>
-        <a href="https://github.com/viliusdev" class="SocialLink" target="_blank" rel="noopener">
+        <a
+          href="https://github.com/viliusdev"
+          class="SocialLink"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub"
+        >
           <IconGitHub class="SocialIcon"/>
         </a>
-        <a href="mailto:hello@viliusdzemyda.com?subject=Hi" class="SocialLink">
+        <a href="mailto:hello@viliusdzemyda.com?subject=Hi" class="SocialLink" aria-label="Mail">
           <IconMail class="SocialIcon"/>
         </a>
       </div>
