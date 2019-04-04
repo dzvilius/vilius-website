@@ -2,10 +2,15 @@
   <footer class="footer AppFooter">
     <div class="container">
       <div class="AppFooter__Social">
-        <a href="https://linkedin.com/in/viliusdzemyda" class="SocialLink" target="_blank">
+        <a
+          href="https://linkedin.com/in/viliusdzemyda"
+          class="SocialLink"
+          target="_blank"
+          rel="noopener"
+        >
           <IconLinkedIn class="SocialIcon"/>
         </a>
-        <a href="https://github.com/viliusdev" class="SocialLink" target="_blank">
+        <a href="https://github.com/viliusdev" class="SocialLink" target="_blank" rel="noopener">
           <IconGitHub class="SocialIcon"/>
         </a>
         <a href="mailto:hello@viliusdzemyda.com?subject=Hi" class="SocialLink">
