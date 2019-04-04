@@ -3,7 +3,7 @@
     <div class="container">
       <div class="ContactCta">
         <h2 class="is-size-3">Are you hiring?</h2>
-        <p class="ContactCta__Subtitle">I am available.</p>
+        <p class="ContactCta__Subtitle">That's great!</p>
         <ButtonCv/>
       </div>
     </div>
