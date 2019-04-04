@@ -4,18 +4,18 @@
       <div class="ContactCta">
         <h2 class="is-size-3">Are you hiring?</h2>
         <p class="ContactCta__Subtitle">I am available.</p>
-        <MailButton/>
+        <ButtonMail/>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import MailButton from '~/components/MailButton.vue'
+import ButtonMail from '~/components/Buttons/ButtonMail.vue'
 
 export default {
   components: {
-    MailButton,
+    ButtonMail,
   },
 }
 </script>

@@ -7,14 +7,14 @@
           My name is Vilius,
           <br>I am Front-End Web Developer
         </h1>
-        <MailButton/>
+        <ButtonMail/>
       </div>
     </section>
   </header>
 </template>
 
 <script>
-import MailButton from '~/components/MailButton.vue'
+import ButtonMail from '~/components/Buttons/ButtonMail.vue'
 
 export default {
   name: 'Navbar',
@@ -24,7 +24,7 @@ export default {
     }
   },
   components: {
-    MailButton,
+    ButtonMail,
   },
 }
 </script>
