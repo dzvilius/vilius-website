@@ -26,5 +26,5 @@ This is my online resume website.
 
 **Designs**
 
-- [Home](ux/v1/Designs/Design_Mobile_v1.png)
+- Home:  [Small](ux/v1/Designs/Home_small.png) / [Medium](ux/v1/Designs/Home_medium.png)
 
