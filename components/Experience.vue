@@ -33,19 +33,19 @@
         </div>
         <div class="Experience__Line"></div>
       </div>
-      <Hiring/>
+      <!-- <Hiring/> -->
     </div>
   </section>
 </template>
 
 <script>
-import Hiring from '~/components/Hiring.vue'
+//import Hiring from '~/components/Hiring.vue'
 
-export default {
-  components: {
-    Hiring,
-  },
-}
+// export default {
+//   components: {
+//     Hiring,
+//   },
+// }
 </script>
 
 <style lang="scss" scoped>
