@@ -12,7 +12,7 @@
           <IconLinkedIn class="SocialIcon"/>
         </a>
         <a
-          href="https://github.com/viliusdev"
+          href="https://github.com/dzvilius"
           class="SocialLink"
           target="_blank"
           rel="noopener"
