@@ -5,12 +5,28 @@
       <div class="TitleLine"></div>
       <div class="content Profile">
         <figure class="image is-200x200 ProfileImage">
-          <img src="images/me.jpg" class="is-rounded" alt="Vilius Dzemyda">
+          <img
+            src="images/me2019.jpg"
+            class="is-rounded"
+            alt="Vilius Dzemyda"
+          />
         </figure>
         <h3 class="is-uppercase is-size-5">Profile</h3>
-        <p>I am an experienced web developer based in Ireland. My primary skills are front-end web development and UI design. Currently, I am studying full-stack software development at Code Institute in Dublin, and transitioning into more advanced, data-driven software development.</p>
-        <p>Specialise in HTML, CSS and JavaScript. Good understanding of UI design patterns, user experience, technology stacks, development tools, and best practices.</p>
-        <p>Open-minded, analytical, logical, able to grasp difficult concepts and good at troubleshooting.</p>
+        <p>
+          I am an experienced web developer based in Ireland. My primary skills
+          are front-end web development and UI design. Currently, I am studying
+          full-stack software development at Code Institute in Dublin, and
+          transitioning into more advanced, data-driven software development.
+        </p>
+        <p>
+          Specialise in HTML, CSS and JavaScript. Good understanding of UI
+          design patterns, user experience, technology stacks, development
+          tools, and best practices.
+        </p>
+        <p>
+          Open-minded, analytical, logical, able to grasp difficult concepts and
+          good at troubleshooting.
+        </p>
       </div>
       <div class="columns is-tablet">
         <div class="column is-half-tablet">
@@ -18,9 +34,8 @@
             <h3 class="is-uppercase is-size-5">Skills</h3>
             <p>
               Problem Solving, Communication
-              <br>Website Development, SEO
-              <br>Prototyping, UI Design
-              <br>Responsive Web Design
+              <br />Website Development, SEO <br />Prototyping, UI Design
+              <br />Responsive Web Design
             </p>
           </div>
         </div>
@@ -29,10 +44,8 @@
             <h3 class="is-uppercase is-size-5">Tech</h3>
             <p>
               HTML, CSS, JavaScript, Vue.js
-              <br>Bulma, Bootstrap, SCSS
-              <br>Linux, CLI, Git, npm, Webpack
-              <br>WordPress, Nuxt.js
-              <br>Netlify, Cloudways
+              <br />Bulma, Bootstrap, SCSS <br />Linux, CLI, Git, npm, Webpack
+              <br />WordPress, Nuxt.js <br />Netlify, Cloudways
             </p>
           </div>
         </div>
