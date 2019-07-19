@@ -1,8 +1,12 @@
 <template>
-  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <nav
+    class="navbar is-fixed-top"
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="container">
       <div class="navbar-brand">
-        <Logo class="NavbarLogo"/>
+        <Logo class="NavbarLogo" />
         <a
           role="button"
           class="navbar-burger"
@@ -10,19 +14,26 @@
           aria-expanded="false"
           data-target="navbarMenu"
           v-on:click="showMenu = !showMenu"
-          v-bind:class="{ 'is-active' : showMenu }"
+          v-bind:class="{ 'is-active': showMenu }"
         >
-          <IconMenu class="MenuIcon"/>
+          <IconMenu class="MenuIcon" />
         </a>
       </div>
-      <div id="navbarMenu" class="navbar-menu" v-bind:class="{ 'is-active' : showMenu }">
+      <div
+        id="navbarMenu"
+        class="navbar-menu"
+        v-bind:class="{ 'is-active': showMenu }"
+      >
         <div class="navbar-end">
-          <nuxt-link to="/#About#" v-scroll-to="'#About'" class="navbar-item">About</nuxt-link>
+          <nuxt-link to="/#About#" v-scroll-to="'#About'" class="navbar-item"
+            >About</nuxt-link
+          >
           <a
             href="mailto:hello@viliusdzemyda.com?subject=Website contact"
             class="navbar-item"
-          >Contact</a>
-          <a href="./files/Vilius_Dzemyda_CV.pdf" class="navbar-item" target="_blank">CV</a>
+            >Contact</a
+          >
+          <a href="./files/CV.pdf" class="navbar-item" target="_blank">CV</a>
         </div>
       </div>
     </div>
