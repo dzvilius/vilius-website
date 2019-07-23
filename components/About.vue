@@ -6,7 +6,7 @@
       <div class="content Profile">
         <figure class="image is-200x200 ProfileImage">
           <img
-            src="images/me2019.jpg"
+            src="images/me-new.jpg"
             class="is-rounded"
             alt="Vilius Dzemyda"
           />
