@@ -3,7 +3,7 @@
     <div class="container">
       <div class="AppFooter__Social">
         <a
-          href="https://linkedin.com/in/viliusdzemyda"
+          href="https://linkedin.com/in/dzvilius"
           class="SocialLink"
           target="_blank"
           rel="noopener"
