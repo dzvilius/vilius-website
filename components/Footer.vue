@@ -21,6 +21,15 @@
           <IconGitHub class="SocialIcon" />
         </a>
         <a
+          href="https://open.spotify.com/user/viliusdzemyda?si=vNDqIOGiTKixZ-VWbfufig"
+          class="SocialLink"
+          target="_blank"
+          rel="noopener"
+          aria-label="Spotify"
+        >
+          <IconSpotify class="SocialIcon" />
+        </a>
+        <a
           href="mailto:hello@viliusdzemyda.com?subject=Hi"
           class="SocialLink"
           aria-label="Mail"
@@ -38,6 +47,7 @@
 <script>
 import IconLinkedIn from '~/components/Icons/IconLinkedIn.vue'
 import IconGitHub from '~/components/Icons/IconGitHub.vue'
+import IconSpotify from '~/components/Icons/IconSpotify.vue'
 import IconMail from '~/components/Icons/IconMail.vue'
 
 export default {
@@ -49,6 +59,7 @@ export default {
   components: {
     IconLinkedIn,
     IconGitHub,
+    IconSpotify,
     IconMail,
   },
 }
