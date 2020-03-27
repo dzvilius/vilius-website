@@ -21,7 +21,7 @@
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
-            <span>Jan 2017 – Feb 2020</span>
+            <span>Jan 2017 – Mar 2020</span>
             <div class="Experience__JobTitle">Freelance</div>
           </div>
           <h2 class="Experience__Title">Front-End Web Developer</h2>
