@@ -9,7 +9,7 @@
           rel="noopener"
           aria-label="LinkedIn"
         >
-          <IconLinkedIn class="SocialIcon"/>
+          <IconLinkedIn class="SocialIcon" />
         </a>
         <a
           href="https://github.com/dzvilius"
@@ -18,10 +18,14 @@
           rel="noopener"
           aria-label="GitHub"
         >
-          <IconGitHub class="SocialIcon"/>
+          <IconGitHub class="SocialIcon" />
         </a>
-        <a href="mailto:hello@viliusdzemyda.com?subject=Hi" class="SocialLink" aria-label="Mail">
-          <IconMail class="SocialIcon"/>
+        <a
+          href="mailto:hello@viliusdzemyda.com?subject=Hi"
+          class="SocialLink"
+          aria-label="Mail"
+        >
+          <IconMail class="SocialIcon" />
         </a>
       </div>
       <div class="AppFooter__Copyright">
@@ -91,4 +95,3 @@ $social-icon-color: $color-one !default;
   font-size: 14px;
 }
 </style>
-

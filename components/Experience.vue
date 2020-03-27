@@ -1,17 +1,35 @@
 <template>
   <section class="section HiringSection" id="Hiring">
     <div class="container">
-      <h3 class="is-size-3 has-text-centered HiringSection__Title">Experience</h3>
+      <h3 class="is-size-3 has-text-centered HiringSection__Title">
+        Experience
+      </h3>
       <div class="TitleLine"></div>
       <div class="Experience">
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
-            <span>Jan 2017 – Present</span>
+            <span>Mar 2020 – Present</span>
+            <div class="Experience__JobTitle">Cybertonica</div>
+          </div>
+          <h2 class="Experience__Title">UI / Front-End Developer</h2>
+          <p>
+            User experience design, interactive prototypes, documentation, UI
+            component development using React. Data visualisation.
+          </p>
+        </div>
+        <div class="Experience__Item">
+          <div class="Experience__Meta">
+            <div class="Experience__Indicator"></div>
+            <span>Jan 2017 – Feb 2020</span>
             <div class="Experience__JobTitle">Freelance</div>
           </div>
-          <h2 class="Experience__Title">Web Developer</h2>
-          <p>Plan, design and develop WordPress sites. Setup domains and emails, migrate and backup data, configure servers. Support clients by phone and email. Design and develop Vue.js static sites and deploy to Netlify.</p>
+          <h2 class="Experience__Title">Front-End Web Developer</h2>
+          <p>
+            Planning, design and development of UI components using Vue.
+            WordPress sites development. Domains, emails, migration, backups,
+            servers configuration. Client support by phone and email.
+          </p>
         </div>
         <div class="Experience__Item">
           <div class="Experience__Meta">
@@ -19,8 +37,12 @@
             <span>Apr 2015 – Nov 2015</span>
             <div class="Experience__JobTitle">Purple Pod</div>
           </div>
-          <h2 class="Experience__Title">Front-End Developer</h2>
-          <p>Convert multiple design mock-ups into fully functional templates for an online store. Responsible for the design and development of WordPress sites, and daily website maintenance.</p>
+          <h2 class="Experience__Title">Front-End Web Developer</h2>
+          <p>
+            Convert design mock-ups into fully functional templates for online
+            stores and websites. Responsible for the design and development of
+            WordPress sites, and daily website maintenance.
+          </p>
         </div>
         <div class="Experience__Item">
           <div class="Experience__Meta">
@@ -29,7 +51,12 @@
             <div class="Experience__JobTitle">The DG Group / Snap</div>
           </div>
           <h2 class="Experience__Title">Web Developer</h2>
-          <p>My primary task was to convert Photoshop mock-ups into fully functional websites. To prototype faster and save time, I built an in-house CSS framework and starter WordPress theme. I made old websites mobilefriendly, implemented responsive techniques, and tested for browser compatibility. Support clients by email.</p>
+          <p>
+            Convert Photoshop mock-ups into fully functional websites. In-house
+            CSS framework and starter WordPress theme. Website optimisation for
+            mobile, responsive techniques implementation, browser compatibility
+            testing. Client support.
+          </p>
         </div>
         <div class="Experience__Line"></div>
       </div>
@@ -39,13 +66,9 @@
 </template>
 
 <script>
-//import Hiring from '~/components/Hiring.vue'
-
-// export default {
-//   components: {
-//     Hiring,
-//   },
-// }
+export default {
+  name: 'Experience',
+}
 </script>
 
 <style lang="scss" scoped>

@@ -5,18 +5,12 @@
       <div class="TitleLine"></div>
       <div class="content Profile">
         <figure class="image is-200x200 ProfileImage">
-          <img
-            src="images/me.png"
-            class="is-rounded"
-            alt="Vilius Dzemyda"
-          />
+          <img src="images/me.png" class="is-rounded" alt="Vilius Dzemyda" />
         </figure>
         <h3 class="is-uppercase is-size-5">Profile</h3>
         <p>
-          I am an experienced web developer based in Ireland. My primary skills
-          are front-end web development and UI design. Currently, I am studying
-          full-stack software development at Code Institute in Dublin, and
-          transitioning into more advanced, data-driven software development.
+          I am an experienced web application UI developer based in Ireland. My
+          primary skills are UXD and front-end web development.
         </p>
         <p>
           Specialise in HTML, CSS and JavaScript. Good understanding of UI
@@ -43,9 +37,10 @@
           <div class="content">
             <h3 class="is-uppercase is-size-5">Tech</h3>
             <p>
-              HTML, CSS, JavaScript, Vue.js
-              <br />Bulma, Bootstrap, SCSS <br />Linux, CLI, Git, npm, Webpack
-              <br />WordPress, Nuxt.js <br />Netlify, Cloudways
+              HTML, CSS, JavaScript, React, Vue.js
+              <br />
+              Bootstrap, Bulma, SCSS <br />Linux, CLI, Git, npm, Webpack
+              <br />WordPress, DigitalOcean, Netlify, Cloudways
             </p>
           </div>
         </div>
@@ -53,6 +48,12 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  name: 'About',
+}
+</script>
 
 <style lang="scss" scoped>
 @import '~assets/scss/_variables.scss';
