@@ -3,15 +3,6 @@
     <div class="container">
       <div class="AppFooter__Social">
         <a
-          href="https://linkedin.com/in/dzvilius"
-          class="SocialLink"
-          target="_blank"
-          rel="noopener"
-          aria-label="LinkedIn"
-        >
-          <IconLinkedIn class="SocialIcon" />
-        </a>
-        <a
           href="https://github.com/dzvilius"
           class="SocialLink"
           target="_blank"
@@ -45,7 +36,6 @@
 </template>
 
 <script>
-import IconLinkedIn from '~/components/Icons/IconLinkedIn.vue'
 import IconGitHub from '~/components/Icons/IconGitHub.vue'
 import IconSpotify from '~/components/Icons/IconSpotify.vue'
 import IconMail from '~/components/Icons/IconMail.vue'
@@ -57,7 +47,6 @@ export default {
     }
   },
   components: {
-    IconLinkedIn,
     IconGitHub,
     IconSpotify,
     IconMail,
