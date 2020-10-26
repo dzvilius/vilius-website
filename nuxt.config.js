@@ -1,6 +1,4 @@
 module.exports = {
-  mode: 'universal',
-
   /*
    ** Headers of the page
    */
@@ -59,9 +57,7 @@ module.exports = {
   //   ['@nuxtjs/dotenv'],
   // ],
 
-  buildModules: [
-    ['@nuxtjs/google-analytics']
-  ],
+  buildModules: [['@nuxtjs/google-analytics']],
 
   googleAnalytics: {
     id: 'UA-136217007-1',
