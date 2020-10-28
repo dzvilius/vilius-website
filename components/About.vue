@@ -5,7 +5,7 @@
       <div class="TitleLine"></div>
       <div class="content Profile">
         <figure class="image is-200x200 ProfileImage">
-          <img src="images/me.png" class="is-rounded" alt="Vilius Dzemyda" />
+          <img src="images/vd.jpeg" class="is-rounded" alt="Vilius Dzemyda" />
         </figure>
         <h3 class="is-uppercase is-size-5">Profile</h3>
         <p>
