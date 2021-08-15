@@ -23,6 +23,7 @@ This is my online resume website.
 **Wireframes**
 
 - [Home](ux/v1/Wireframes/Home.png)
+- [Portfolio] - Coming soon...
 
 **Designs**
 
