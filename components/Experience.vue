@@ -9,7 +9,7 @@
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
-            <span>Mar 2020 – Present</span>
+            <span>Mar 2020 – Dec 2021</span>
             <div class="Experience__JobTitle">Cybertonica</div>
           </div>
           <h2 class="Experience__Title">UI / Front-End Developer</h2>
