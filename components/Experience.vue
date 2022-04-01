@@ -1,7 +1,7 @@
 <template>
   <section class="section HiringSection" id="Hiring">
     <div class="container">
-      <h3 class="is-size-3 has-text-centered HiringSection__Title">
+      <h3 class="HiringSection__Title">
         Experience
       </h3>
       <div class="TitleLine"></div>
@@ -13,7 +13,7 @@
             <div class="Experience__JobTitle">Cybertonica</div>
           </div>
           <h2 class="Experience__Title">UI / Front-End Developer</h2>
-          <p>
+          <p class="Experience__Info">
             User experience design, interactive prototypes, documentation, UI
             component development using React. Data visualisation.
           </p>
@@ -25,7 +25,7 @@
             <div class="Experience__JobTitle">Freelance</div>
           </div>
           <h2 class="Experience__Title">Front-End Web Developer</h2>
-          <p>
+          <p class="Experience__Info">
             Planning, design and development of UI components using Vue.
             WordPress sites development. Domains, emails, migration, backups,
             servers configuration. Client support by phone and email.
@@ -38,7 +38,7 @@
             <div class="Experience__JobTitle">Purple Pod</div>
           </div>
           <h2 class="Experience__Title">Front-End Web Developer</h2>
-          <p>
+          <p class="Experience__Info">
             Convert design mock-ups into fully functional templates for online
             stores and websites. Responsible for the design and development of
             WordPress sites, and daily website maintenance.
@@ -51,7 +51,7 @@
             <div class="Experience__JobTitle">The DG Group / Snap</div>
           </div>
           <h2 class="Experience__Title">Web Developer</h2>
-          <p>
+          <p class="Experience__Info">
             Convert Photoshop mock-ups into fully functional websites. In-house
             CSS framework and starter WordPress theme. Website optimisation for
             mobile, responsive techniques implementation, browser compatibility
@@ -81,6 +81,8 @@ export default {
 .HiringSection__Title {
   color: $color-one;
   font-weight: 500;
+  font-size: 32px;
+  text-align: center;
 }
 
 .TitleLine {
@@ -149,8 +151,10 @@ export default {
 }
 
 .Experience__JobTitle {
-  margin-top: 14px;
+  margin-top: 8px;
+  margin-bottom: 18px;
   font-size: 16px;
+  font-weight: 500;
 
   @media screen and (min-width: 960px) {
     position: absolute;
@@ -165,6 +169,11 @@ export default {
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 12px;
+}
+
+.Experience__Info {
+  font-size: 16px;
+  margin-bottom: 24px;
 }
 
 .Experience__Line {

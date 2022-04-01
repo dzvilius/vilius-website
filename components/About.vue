@@ -1,13 +1,13 @@
 <template>
   <section class="section AboutSection" id="About">
     <div class="container">
-      <h2 class="is-size-3 has-text-centered AboutSection__Title">About</h2>
+      <h2 class="AboutSection__Title">About</h2>
       <div class="TitleLine"></div>
       <div class="content Profile">
         <figure class="image is-200x200 ProfileImage">
           <img src="images/vd.jpeg" class="is-rounded" alt="Vilius Dzemyda" />
         </figure>
-        <h3 class="is-uppercase is-size-5">Profile</h3>
+        <h3 class="AboutSection__Subtitle">Profile</h3>
         <p>
           I am an experienced web application UI developer based in Ireland. My
           primary skills are UXD and front-end web development.
@@ -25,7 +25,7 @@
       <div class="columns is-tablet">
         <div class="column is-half-tablet">
           <div class="content">
-            <h3 class="is-uppercase is-size-5">Skills</h3>
+            <h3 class="AboutSection__Subtitle">Skills</h3>
             <p>
               Problem Solving, Communication
               <br />Website Development, SEO <br />Prototyping, UI Design
@@ -35,7 +35,7 @@
         </div>
         <div class="column is-half-tablet">
           <div class="content">
-            <h3 class="is-uppercase is-size-5">Tech</h3>
+            <h3 class="AboutSection__Subtitle">Tech</h3>
             <p>
               HTML, CSS, JavaScript, React, Vue.js
               <br />
@@ -70,6 +70,15 @@ export default {
 .AboutSection__Title {
   color: $color-one;
   font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+}
+
+.AboutSection__Subtitle {
+  color: $color-one;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .TitleLine {
