@@ -18,7 +18,7 @@
           tools, and best practices.
         </p>
         <p>
-          Open-minded, analytical, logical, able to grasp difficult concepts and
+          Open-minded, analytical, logical, able to grasp complex concepts and
           good at troubleshooting.
         </p>
       </div>
@@ -27,9 +27,7 @@
           <div class="content">
             <h3 class="AboutSection__Subtitle">Skills</h3>
             <p>
-              Problem Solving, Communication
-              <br />Website Development, SEO <br />Prototyping, UI Design
-              <br />Responsive Web Design
+              UX, Planning, Research, Information Architecture, Communication, Troubleshooting, Vector Graphics, Wireframes, Prototypes, Responsive UI Design, Web App Development, Data Visualisation, SEO, Attention to Detail, Multilingual, Remote Work
             </p>
           </div>
         </div>
@@ -37,10 +35,7 @@
           <div class="content">
             <h3 class="AboutSection__Subtitle">Tech</h3>
             <p>
-              HTML, CSS, JavaScript, React, Vue.js
-              <br />
-              Bootstrap, Bulma, SCSS <br />Linux, CLI, Git, npm, Webpack
-              <br />WordPress, DigitalOcean, Netlify, Cloudways
+              React, JS, CSS & Sass, HTML5, APIs, NextJS, Git, CLI, Bootstrap, MUI, Bulma, VS Code, NVM, Node, npm, iTerm, Cloudflare, Postman Balsamiq, Figma, Sketch, Adobe, JIRA, Trello, Confluence, GApps, MacOS, Linux, WordPress
             </p>
           </div>
         </div>

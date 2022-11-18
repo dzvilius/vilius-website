@@ -9,26 +9,29 @@
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
-            <span>Mar 2020 – Dec 2021</span>
+            <span>Nov 2019 – Dec 2021</span>
             <div class="Experience__JobTitle">Cybertonica</div>
           </div>
-          <h2 class="Experience__Title">UI / Front-End Developer</h2>
+          <h2 class="Experience__Title">UI / UX Developer</h2>
           <p class="Experience__Info">
-            User experience design, interactive prototypes, documentation, UI
-            component development using React. Data visualisation.
+            Cybertonica is a FinTech startup offering security services for
+            payment gateways and online banking. Products provide fraud & risk
+            monitoring on real-time automation and decision based on machine
+            learning and enhanced behavioural insights, backed by Europe’s most
+            successful venture firms and a network of angel investors.
           </p>
         </div>
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
-            <span>Jan 2017 – Mar 2020</span>
+            <span>Jan 2016 – Oct 2019</span>
             <div class="Experience__JobTitle">Freelance</div>
           </div>
           <h2 class="Experience__Title">Front-End Web Developer</h2>
           <p class="Experience__Info">
-            Planning, design and development of UI components using Vue.
-            WordPress sites development. Domains, emails, migration, backups,
-            servers configuration. Client support by phone and email.
+            Registered as a self-employed sole trader. Provide UI design, web
+            development and server management services for local clients and
+            companies.
           </p>
         </div>
         <div class="Experience__Item">
@@ -37,25 +40,24 @@
             <span>Apr 2015 – Nov 2015</span>
             <div class="Experience__JobTitle">Purple Pod</div>
           </div>
-          <h2 class="Experience__Title">Front-End Web Developer</h2>
+          <h2 class="Experience__Title">Web Developer</h2>
           <p class="Experience__Info">
-            Convert design mock-ups into fully functional templates for online
-            stores and websites. Responsible for the design and development of
-            WordPress sites, and daily website maintenance.
+            Purple Pod is an Irish-owned web development firm serving a global
+            market of clients ranging from start-ups to blue-chip companies.
           </p>
         </div>
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
             <span>Jun 2011 – Feb 2014</span>
-            <div class="Experience__JobTitle">The DG Group / Snap</div>
+            <div class="Experience__JobTitle">Snap Printing</div>
           </div>
-          <h2 class="Experience__Title">Web Developer</h2>
+          <h2 class="Experience__Title">Junior Web Developer</h2>
           <p class="Experience__Info">
-            Convert Photoshop mock-ups into fully functional websites. In-house
-            CSS framework and starter WordPress theme. Website optimisation for
-            mobile, responsive techniques implementation, browser compatibility
-            testing. Client support.
+            A marketing company with extensive expertise across a wide range of
+            services, including graphic design, promotional products, website
+            design, web application development, SEO and pay-per-click
+            management.
           </p>
         </div>
         <div class="Experience__Line"></div>
