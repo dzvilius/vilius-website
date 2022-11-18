@@ -13,13 +13,10 @@
           primary skills are UXD and front-end web development.
         </p>
         <p>
-          Specialise in HTML, CSS and JavaScript. Good understanding of UI
-          design patterns, user experience, technology stacks, development
-          tools, and best practices.
+          Specialise in HTML, CSS and JavaScript. Good understanding of UI design patterns, user experience, technology stacks, development tools, and industry best practices.
         </p>
         <p>
-          Open-minded, analytical, logical, able to grasp complex concepts and
-          good at troubleshooting.
+          Open-minded, curious, analytical thinker, able to grasp complex concepts and good at troubleshooting.
         </p>
       </div>
       <div class="columns is-tablet">
