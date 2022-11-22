@@ -12,7 +12,7 @@
           <IconGitHub class="SocialIcon" />
         </a>
         <a
-          href="mailto:hello@viliusdzemyda.com?subject=Website%20Contact"
+          href="mailto:hello@viliusdzemyda.com?subject=Website%20contact"
           class="SocialLink"
           aria-label="Mail"
         >
