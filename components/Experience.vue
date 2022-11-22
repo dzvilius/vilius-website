@@ -62,14 +62,19 @@
         </div>
         <div class="Experience__Line"></div>
       </div>
-      <!-- <Hiring/> -->
+      <Hiring/>
     </div>
   </section>
 </template>
 
 <script>
+import Hiring from '~/components/Hiring.vue'
+
 export default {
   name: 'Experience',
+  components: {
+    Hiring,
+  },
 }
 </script>
 
