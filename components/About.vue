@@ -9,14 +9,22 @@
         </figure>
         <h3 class="AboutSection__Subtitle">Profile</h3>
         <p>
-          I am an experienced web application UI developer based in Ireland. My
-          primary skills are UXD and front-end web development.
+          I am a Front-end web developer based in Ireland. My primary skills are UXD and UI development.
         </p>
         <p>
-          Specialise in HTML, CSS and JavaScript. Good understanding of UI design patterns, user experience, technology stacks, development tools, and industry best practices.
+          Have more than eight years of professional experience building and maintaining websites and commercial client-side web applications.
         </p>
         <p>
-          Open-minded, curious, analytical thinker, able to grasp complex concepts and good at troubleshooting.
+          My most recent experience - working remotely at a London-based FinTech startup, serving international banks and eCommerce merchants.
+        </p>
+        <p>
+          Specialise in React, Next.js, JavaScript, HTML and CSS and UX.
+        </p>
+        <p>
+          Good comprehension of UI design patterns, user experience, technology stacks, development tools, and industry best practices.
+        </p>
+        <p>
+          Open-minded, always curious, analytical thinker, able to grasp complex concepts, and good at troubleshooting.
         </p>
       </div>
       <div class="columns is-tablet">
