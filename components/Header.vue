@@ -4,8 +4,8 @@
       <div class="Hero__Content">
         <p class="Hero__Title">{{ msg }}</p>
         <h1 class="Hero__Subtitle">
-          My name is Vilius,<br />
-          I architect and develop web applications using<br />
+          My name is Vilius,<br /><br />
+          I design and develop web applications using<br />
           UX methodologies and modern web tech.
         </h1>
         <ButtonMail />
