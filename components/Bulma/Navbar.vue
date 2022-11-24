@@ -25,11 +25,11 @@
         v-bind:class="{ 'is-active': showMenu }"
       >
         <div class="navbar-end">
-          <nuxt-link to="/#About#" v-scroll-to="'#About'" class="navbar-item"
+          <nuxt-link to="/#About" v-scroll-to="'#About'" class="navbar-item"
             >About</nuxt-link
           >
           <a
-            href="mailto:hello@viliusdzemyda.com?subject=Website contact"
+            href="mailto:hello@viliusdzemyda.com?subject=Website%20contact"
             class="navbar-item"
             >Contact</a
           >
@@ -71,7 +71,7 @@ $icon-menu-color: $color-ink !default;
   font-weight: 700;
   color: $color-one;
 
-  @media screen and (min-width: 1088px) {
+  @media screen and (min-width: 1024px) {
     padding: 0.5rem 1rem;
     font-size: 16px;
   }
@@ -92,7 +92,7 @@ $icon-menu-color: $color-ink !default;
 }
 
 .navbar-menu {
-  @media screen and (max-width: 1087px) {
+  @media screen and (max-width: 1023px) {
     right: 16px;
     top: 74px;
     position: absolute;

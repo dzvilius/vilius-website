@@ -49,7 +49,7 @@ $app-header-background-colour: #fff !default;
   max-width: 600px;
   margin: 0 auto;
 
-  @media screen and (min-width: 1088px) {
+  @media screen and (min-width: 1024px) {
     height: 700px;
     max-width: 900px;
     background-size: auto 520px;
@@ -66,7 +66,7 @@ $app-header-background-colour: #fff !default;
   left: 24px;
   right: 0;
 
-  @media screen and (min-width: 1088px) {
+  @media screen and (min-width: 1024px) {
     top: 120px;
     left: 0;
   }
@@ -77,7 +77,7 @@ $app-header-background-colour: #fff !default;
   margin-bottom: 12px;
   font-weight: 500;
 
-  @media screen and (min-width: 1088px) {
+  @media screen and (min-width: 1024px) {
     font-size: 32px;
   }
 }
