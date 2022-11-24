@@ -40,7 +40,7 @@
           <div class="content">
             <h3 class="AboutSection__Subtitle">Tech</h3>
             <p>
-              React, JS, CSS & Sass, HTML5, APIs, NextJS, Git, CLI, Bootstrap, MUI, Bulma, VS Code, NVM, Node, npm, iTerm, Cloudflare, Postman Balsamiq, Figma, Sketch, Adobe, JIRA, Trello, Confluence, GApps, MacOS, Linux, WordPress
+              React, JS, CSS & Sass, HTML5, APIs, NextJS, Git, CLI, Bootstrap, MUI, Bulma, VS Code, NVM, Node, npm, iTerm, Cloudflare, Postman, Balsamiq, Figma, Sketch, Adobe, JIRA, Trello, Confluence, GApps, MacOS, Linux, WordPress
             </p>
           </div>
         </div>
