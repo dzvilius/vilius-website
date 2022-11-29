@@ -44,7 +44,7 @@ $app-header-background-colour: #fff !default;
   background-size: auto 380px;
   background-position: right 70%;
   background-repeat: no-repeat;
-  height: 550px;
+  height: 600px;
   position: relative;
   max-width: 600px;
   margin: 0 auto;
