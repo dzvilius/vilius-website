@@ -25,21 +25,7 @@ module.exports = {
           'https://fonts.googleapis.com/css?family=Monoton|Ubuntu:400,500,700',
       },
     ],
-    script: [
-      { src: 'https://www.googletagmanager.com/gtag/js?id=G-ES3MS8Y2QV', body: false },
-      {
-        children: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-ES3MS8Y2QV');
-        `,
-        type: 'text/javascript',
-        async: true,
-        mode: 'client',
-      }
-    ],
+    script: [],
     bodyAttrs: {
       class: 'has-navbar-fixed-top',
     },
@@ -67,7 +53,24 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  // modules: [
+  //   ['@nuxtjs/dotenv'],
+  // ],
+
+  buildModules: [
+    ['@nuxtjs/google-gtag', {
+      id: 'G-ES3MS8Y2QV',
+      config: {
+        anonymize_ip: true, // anonymize IP
+        send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+        linker: {
+          domains: ['viliusdzemyda.com']
+        }
+      },
+      debug: false, // enable to track in dev mode
+      disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+    }]
+  ],
 
   vendor: [],
 
