@@ -14,7 +14,7 @@ module.exports = {
         hid: 'description',
         name: 'description',
         content:
-          'An experienced Front-End Web Developer based in Ireland. Specialise in HTML, CSS and JavaScript. Good understanding of UI design patterns, user experience, technology stacks, development tools, and best practices.',
+          'Front-end web developer based in Ireland. My primary skills are UXD and UI development. I design and develop web applications using UX methodologies and modern web tech.',
       },
     ],
     link: [
@@ -25,7 +25,21 @@ module.exports = {
           'https://fonts.googleapis.com/css?family=Monoton|Ubuntu:400,500,700',
       },
     ],
-    script: [{ src: '', body: true }],
+    script: [
+      { src: 'https://www.googletagmanager.com/gtag/js?id=G-ES3MS8Y2QV', body: false },
+      {
+        children: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-ES3MS8Y2QV');
+        `,
+        type: 'text/javascript',
+        async: true,
+        mode: 'client',
+      }
+    ],
     bodyAttrs: {
       class: 'has-navbar-fixed-top',
     },
@@ -53,15 +67,7 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  // modules: [
-  //   ['@nuxtjs/dotenv'],
-  // ],
-
-  buildModules: [['@nuxtjs/google-analytics']],
-
-  googleAnalytics: {
-    id: 'UA-136217007-1',
-  },
+  modules: [],
 
   vendor: [],
 

@@ -16,7 +16,6 @@
     "vue-scrollto": "^2.18.1"
   },
   "devDependencies": {
-    "@nuxtjs/google-analytics": "^2.4.0",
     "prettier": "^1.19.1",
     "sass": "^1.49.10",
     "sass-loader": "^7.3.1"

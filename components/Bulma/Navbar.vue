@@ -59,7 +59,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~assets/scss/_variables.scss';
+@import 'assets/scss/_variables.scss';
 
 $navbar-menu-background-color: #fff !default;
 $icon-menu-color: $color-ink !default;
