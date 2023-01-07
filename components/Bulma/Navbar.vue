@@ -25,15 +25,27 @@
         v-bind:class="{ 'is-active': showMenu }"
       >
         <div class="navbar-end">
-          <nuxt-link to="/#About" v-scroll-to="'#About'" class="navbar-item"
-            >About</nuxt-link
+          <a
+            href="./files/CV.pdf"
+            target="_blank"
+            class="navbar-item"
           >
+            CV
+          </a>
+          <a
+            href="https://github.com/dzvilius"
+            target="_blank"
+            rel="noopener"
+            class="navbar-item"
+          >
+            GitHub
+          </a>
           <a
             href="mailto:hello@viliusdzemyda.com?subject=Website%20contact"
             class="navbar-item"
-            >Contact</a
           >
-          <a href="./files/CV.pdf" class="navbar-item" target="_blank">CV</a>
+            Contact
+          </a>
         </div>
       </div>
     </div>
