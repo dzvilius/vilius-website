@@ -4,7 +4,7 @@
       <div class="Hero__Content">
         <p class="Hero__Title">{{ msg }}</p>
         <h1 class="Hero__Subtitle">
-          My name is Vilius,<br /><br />
+          My name is Vilius,<br />
           I design and develop modern web applications.
         </h1>
         <ButtonMail />
