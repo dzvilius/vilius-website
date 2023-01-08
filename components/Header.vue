@@ -5,8 +5,7 @@
         <p class="Hero__Title">{{ msg }}</p>
         <h1 class="Hero__Subtitle">
           My name is Vilius,<br />
-          I design and develop web applications using<br />
-          UX methodologies and modern web tech.
+          I design and develop modern web applications.
         </h1>
         <ButtonMail />
       </div>

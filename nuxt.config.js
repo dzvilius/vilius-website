@@ -6,7 +6,7 @@ module.exports = {
     htmlAttrs: {
       lang: 'en-gb',
     },
-    title: 'Vilius Dzemyda | Front-End Web Developer',
+    title: 'Vilius Dzemyda | Front-end Web Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,7 +14,7 @@ module.exports = {
         hid: 'description',
         name: 'description',
         content:
-          'Front-end web developer based in Ireland. My primary skills are UXD and UI development. I design and develop web applications using UX methodologies and modern web tech.',
+          'Front-end Web Developer based in Ireland with expertise in UX design and modern web technologies.',
       },
     ],
     link: [
