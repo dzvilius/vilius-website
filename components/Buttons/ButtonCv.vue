@@ -1,5 +1,5 @@
 <template>
-  <a href="./files/CV.pdf" class="button ButtonCv" target="_blank">Download CV</a>
+  <a href="./files/Vilius_Dzemyda_CV" class="button ButtonCv" target="_blank">Download CV</a>
 </template>
 
 <style lang="scss" scoped>
