@@ -5,7 +5,7 @@
       <div class="TitleLine"></div>
       <div class="content Profile">
         <figure class="image is-200x200 ProfileImage">
-          <img src="images/vd.png" class="is-rounded" alt="Vilius Dzemyda" />
+          <img src="images/vd.jpg" class="is-rounded" alt="Vilius Dzemyda" />
         </figure>
         <h3 class="AboutSection__Subtitle">Profile</h3>
         <p>I am a front-end web developer based in Ireland with over eight years of professional experience in building and maintaining websites and client-side web applications. My primary skills are in UX and UI development, and I specialize in React, Next.js, JavaScript, HTML, and CSS.</p>
