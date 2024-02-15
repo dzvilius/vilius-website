@@ -8,7 +8,7 @@
           <img src="images/vd.jpg" class="is-rounded" alt="Vilius Dzemyda" />
         </figure>
         <h3 class="AboutSection__Subtitle">Profile</h3>
-        <p>I am a front-end web developer based in Ireland with over eight years of professional experience in building and maintaining websites and client-side web applications. My primary skills are in UX and UI development, and I specialize in React, Next.js, JavaScript, HTML, and CSS.</p>
+        <p>I am a Front End Developer based in Ireland with over eight years of professional experience in building and maintaining websites and client-side web applications. My primary skills are in UX and UI development, and I specialize in React, Next.js, JavaScript, HTML, and CSS.</p>
         <p>I have recently worked remotely for a London-based fintech startup, serving international banks and e-commerce merchants. In addition to my technical skills, I have a good understanding of UI design patterns, user experience, technology stacks, development tools, and industry best practices. I am an open-minded, analytical thinker with a strong ability to grasp complex concepts and troubleshoot issues.</p>
       </div>
       <div class="columns is-tablet">

@@ -12,7 +12,7 @@
             <span>Nov 2019 – Dec 2021</span>
             <div class="Experience__JobTitle">Cybertonica</div>
           </div>
-          <h2 class="Experience__Title">UI / UX Developer</h2>
+          <h2 class="Experience__Title">Front End Developer</h2>
           <p class="Experience__Info">
             Cybertonica is a FinTech startup offering security services for
             payment gateways and online banking. Products provide fraud & risk
@@ -27,7 +27,7 @@
             <span>Jan 2016 – Oct 2019</span>
             <div class="Experience__JobTitle">Freelance</div>
           </div>
-          <h2 class="Experience__Title">Front-End Web Developer</h2>
+          <h2 class="Experience__Title">Front End Developer</h2>
           <p class="Experience__Info">
             Registered as a self-employed sole trader. Provide UI design, web
             development and server management services for local clients and
