@@ -26,7 +26,7 @@
       >
         <div class="navbar-end">
           <a
-            href="./files/Vilius_Dzemyda_CV"
+            href="./files/Vilius_Dzemyda_CV.pdf"
             target="_blank"
             class="navbar-item"
           >
