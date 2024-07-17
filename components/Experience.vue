@@ -11,8 +11,9 @@
             <div class="Experience__Indicator"></div>
             <span>Feb 2023 – May 2023</span>
             <div class="Experience__JobTitle">KYP Ltd.</div>
+            <div class="Experience__Location">London, UK</div>
           </div>
-          <h2 class="Experience__Title">UI Design & Support (Remote)</h2>
+          <h2 class="Experience__Title">UI Design & Support (Contract, Remote)</h2>
           <p class="Experience__Info">
             Most recently, I worked at KYP on a temporary contract basis,
             providing UI design and React development services. KYP is a
@@ -27,8 +28,9 @@
             <div class="Experience__Indicator"></div>
             <span>Nov 2019 – Jan 2022</span>
             <div class="Experience__JobTitle">Cybertonica Ltd.</div>
+            <div class="Experience__Location">London, UK</div>
           </div>
-          <h2 class="Experience__Title">Front End Developer (Remote)</h2>
+          <h2 class="Experience__Title">Front End Developer (Permanent, Remote)</h2>
           <p class="Experience__Info">
             Cybertonica is a FinTech startup offering security services for
             payment gateways and online banking. Products provide fraud & risk
@@ -42,8 +44,9 @@
             <div class="Experience__Indicator"></div>
             <span>Jan 2016 – Oct 2019</span>
             <div class="Experience__JobTitle">Freelance</div>
+            <div class="Experience__Location">Navan, Ireland</div>
           </div>
-          <h2 class="Experience__Title">Front End Developer</h2>
+          <h2 class="Experience__Title">Front End Developer (Remote)</h2>
           <p class="Experience__Info">
             Registered as a self-employed sole trader. Provide UI design, web
             development and server management services for local clients and
@@ -55,8 +58,9 @@
             <div class="Experience__Indicator"></div>
             <span>Apr 2015 – Nov 2015</span>
             <div class="Experience__JobTitle">Purple Pod Ltd.</div>
+            <div class="Experience__Location">Navan, Ireland</div>
           </div>
-          <h2 class="Experience__Title">Web Developer</h2>
+          <h2 class="Experience__Title">Web Developer (Permanent, On-Site)</h2>
           <p class="Experience__Info">
             Purple Pod is an Irish-owned web development firm serving a global
             market of clients ranging from start-ups to blue-chip companies.
@@ -67,8 +71,9 @@
             <div class="Experience__Indicator"></div>
             <span>Jun 2011 – Feb 2014</span>
             <div class="Experience__JobTitle">Snap Printing Ltd.</div>
+            <div class="Experience__Location">Dunshaughlin, Ireland</div>
           </div>
-          <h2 class="Experience__Title">Junior Web Developer</h2>
+          <h2 class="Experience__Title">Junior Web Developer (Permanent, On-Site)</h2>
           <p class="Experience__Info">
             A marketing company with extensive expertise across a wide range of
             services, including graphic design, promotional products, website
@@ -182,6 +187,18 @@ export default {
   @media screen and (min-width: 960px) {
     position: absolute;
     top: 22px;
+    left: -230px;
+    text-align: right;
+    width: 170px;
+  }
+}
+
+.Experience__Location {
+  font-size: 14px;
+
+  @media screen and (min-width: 960px) {
+    position: absolute;
+    top: 58px;
     left: -230px;
     text-align: right;
     width: 170px;
