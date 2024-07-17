@@ -9,10 +9,26 @@
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
-            <span>Nov 2019 – Jan 2022</span>
-            <div class="Experience__JobTitle">Cybertonica</div>
+            <span>Feb 2023 – May 2023</span>
+            <div class="Experience__JobTitle">KYP Ltd.</div>
           </div>
-          <h2 class="Experience__Title">Front End Developer</h2>
+          <h2 class="Experience__Title">UI Design & Support (Remote)</h2>
+          <p class="Experience__Info">
+            Most recently, I worked at KYP on a temporary contract basis,
+            providing UI design and React development services. KYP is a
+            London-based intech startup that delivers confidence and peace of
+            mind by offering deep insights, risk intelligence, and real-time
+            information, resulting in more profitable relationships.
+          </p>
+        </div>
+
+        <div class="Experience__Item">
+          <div class="Experience__Meta">
+            <div class="Experience__Indicator"></div>
+            <span>Nov 2019 – Jan 2022</span>
+            <div class="Experience__JobTitle">Cybertonica Ltd.</div>
+          </div>
+          <h2 class="Experience__Title">Front End Developer (Remote)</h2>
           <p class="Experience__Info">
             Cybertonica is a FinTech startup offering security services for
             payment gateways and online banking. Products provide fraud & risk
@@ -38,7 +54,7 @@
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
             <span>Apr 2015 – Nov 2015</span>
-            <div class="Experience__JobTitle">Purple Pod</div>
+            <div class="Experience__JobTitle">Purple Pod Ltd.</div>
           </div>
           <h2 class="Experience__Title">Web Developer</h2>
           <p class="Experience__Info">
@@ -50,7 +66,7 @@
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
             <span>Jun 2011 – Feb 2014</span>
-            <div class="Experience__JobTitle">Snap Printing</div>
+            <div class="Experience__JobTitle">Snap Printing Ltd.</div>
           </div>
           <h2 class="Experience__Title">Junior Web Developer</h2>
           <p class="Experience__Info">
