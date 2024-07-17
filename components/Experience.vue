@@ -15,9 +15,7 @@
           </div>
           <h2 class="Experience__Title">UI Design & Support (Contract, Remote)</h2>
           <p class="Experience__Info">
-            Most recently, I worked at KYP on a temporary contract basis,
-            providing UI design and React development services. KYP is a
-            London-based intech startup that delivers confidence and peace of
+            KYP is a London-based FinTech startup that delivers confidence and peace of
             mind by offering deep insights, risk intelligence, and real-time
             information, resulting in more profitable relationships.
           </p>
