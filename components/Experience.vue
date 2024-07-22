@@ -14,7 +14,7 @@
             <div class="Experience__Location">Navan, Ireland</div>
           </div>
           <h2 class="Experience__Title">
-            UI/UX Front End Developer [Freelance]
+            UI/UX Front End Developer <span>[Freelance]</span>
           </h2>
           <ul class="Experience__List">
             <li>
@@ -64,7 +64,7 @@
             <div class="Experience__Location">London, UK</div>
           </div>
           <h2 class="Experience__Title">
-            UI/UX Design & Consulting [Contract, Remote]
+            UI/UX Design & Consulting <span>[Contract, Remote]</span>
           </h2>
           <ul class="Experience__List">
             <li>
@@ -98,7 +98,7 @@
             <div class="Experience__Location">London, UK</div>
           </div>
           <h2 class="Experience__Title">
-            UI/UX Developer [Permanent, Remote]
+            UI/UX Developer <span>[Permanent, Remote]</span>
           </h2>
           <ul class="Experience__List">
             <li>
@@ -146,7 +146,7 @@
             <div class="Experience__Location">Navan, Ireland</div>
           </div>
           <h2 class="Experience__Title">
-            Front End Developer [Permanent, On-Site]
+            Front End Developer <span>[Permanent, On-Site]</span>
           </h2>
           <ul class="Experience__List">
             <li>
@@ -176,7 +176,7 @@
             <div class="Experience__Location">Dunshaughlin, Ireland</div>
           </div>
           <h2 class="Experience__Title">
-            Web Developer [Permanent, On-Site]
+            Web Developer <span>[Permanent, On-Site]</span>
           </h2>
           <ul class="Experience__List">
             <li>
@@ -328,6 +328,11 @@ export default {
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 12px;
+
+  span {
+    font-weight: 400;
+    padding-left: 10px;
+  }
 }
 
 .Experience__Info {
