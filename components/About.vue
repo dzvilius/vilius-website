@@ -1,30 +1,51 @@
 <template>
   <section class="section AboutSection" id="About">
     <div class="container">
-      <h2 class="AboutSection__Title">About</h2>
+      <h2 class="AboutSection__Title">Professional Summary</h2>
       <div class="TitleLine"></div>
       <div class="content Profile">
         <figure class="image is-200x200 ProfileImage">
           <img src="images/vd.jpg" class="is-rounded" alt="Vilius Dzemyda" />
         </figure>
-        <h3 class="AboutSection__Subtitle">Profile</h3>
-        <p>I am a Front End Developer based in Ireland with over eight years of professional experience in building and maintaining websites and client-side web applications. My primary skills are in UX and UI development, and I specialize in React, Next.js, JavaScript, HTML, and CSS.</p>
-        <p>I have recently worked remotely for a London-based fintech startup, serving international banks and e-commerce merchants. In addition to my technical skills, I have a good understanding of UI design patterns, user experience, technology stacks, development tools, and industry best practices. I am an open-minded, analytical thinker with a strong ability to grasp complex concepts and troubleshoot issues.</p>
       </div>
       <div class="columns is-tablet">
-        <div class="column is-half-tablet">
+        <div class="column is-two-thirds-tablet">
           <div class="content">
-            <h3 class="AboutSection__Subtitle">Skills</h3>
-            <p>
-              UX, Planning, Research, Information Architecture, Communication, Troubleshooting, Vector Graphics, Wireframes, Prototypes, Responsive UI Design, Web App Development, Data Visualisation, SEO, Attention to Detail, Multilingual, Remote Work
+            <h3 class="AboutSection__Subtitle">PROFILE</h3>
+            <p class="AboutSection__Text">
+              With over a decade in UI/UX Front End Development, experienced in
+              designing and building responsive web applications. Proficient
+              with Figma, Sketch, and Balsamiq for prototypes and wireframes,
+              and skilled in JavaScript, HTML, CSS, React, Next.js, and Material
+              UI. Expertise in UX design and meticulous attention to detail
+              ensures intuitive, engaging user experiences.
+            </p>
+            <p class="AboutSection__Text">
+              Experience across freelancing, consulting, and permanent roles
+              highlights a strong blend of UI/UX design and front-end
+              development skills. Includes crafting seamless, user-centric
+              interfaces, collaborating with international teams, and developing
+              interactive features to enhance usability. Committed to using
+              cutting-edge technologies to drive successful project outcomes.
             </p>
           </div>
         </div>
-        <div class="column is-half-tablet">
+        <div class="column is-one-third-tablet">
           <div class="content">
-            <h3 class="AboutSection__Subtitle">Tech</h3>
-            <p>
-              React, JS, CSS & Sass, HTML5, APIs, NextJS, Git, CLI, Bootstrap, MUI, Bulma, VS Code, NVM, Node, npm, iTerm, Cloudflare, Postman, Balsamiq, Figma, Sketch, Adobe, JIRA, Trello, Confluence, GApps, MacOS, Linux, WordPress
+            <h3 class="AboutSection__Subtitle">Technical Skills</h3>
+            <p class="AboutSection__Skills">
+              JavaScript, HTML, CSS, React, Next.js, Node.js, TypeScript,
+              Material UI, Bootstrap, Tailwind CSS, WordPress, Sass, Webpack,
+              Git, MySQL, RESTful APIs, CLI, Linux
+            </p>
+            <h3 class="AboutSection__Subtitle">Design Tools</h3>
+            <p class="AboutSection__Skills">
+              Figma, Sketch, Photoshop, Balsamiq
+            </p>
+            <h3 class="AboutSection__Subtitle">Soft Skills</h3>
+            <p class="AboutSection__Skills">
+              Problem Solving, Team Collaboration, Attention to Detail, Empathy,
+              Adaptability, Effective Communication, Creativity
             </p>
           </div>
         </div>
@@ -47,7 +68,7 @@ export default {
   padding-bottom: 72px;
 
   .container {
-    max-width: 800px;
+    max-width: 900px;
   }
 }
 
@@ -63,6 +84,16 @@ export default {
   font-weight: 600;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+.AboutSection__Text {
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.AboutSection__Skills {
+  font-size: 16px;
+  line-height: 1.75;
 }
 
 .TitleLine {

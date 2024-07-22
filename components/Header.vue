@@ -5,7 +5,7 @@
         <p class="Hero__Title">{{ msg }}</p>
         <h1 class="Hero__Subtitle">
           My name is Vilius,<br />
-          I design and develop modern web applications.
+          I am UI/UX Front End Developer based in Ireland.
         </h1>
         <ButtonMail />
       </div>
@@ -20,7 +20,7 @@ export default {
   name: 'Navbar',
   data() {
     return {
-      msg: '< Hello />',
+      msg: '<Hello />',
     }
   },
   components: {

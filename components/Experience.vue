@@ -2,10 +2,60 @@
   <section class="section HiringSection" id="Hiring">
     <div class="container">
       <h3 class="HiringSection__Title">
-        Experience
+        Professional Experience
       </h3>
       <div class="TitleLine"></div>
       <div class="Experience">
+        <div class="Experience__Item">
+          <div class="Experience__Meta">
+            <div class="Experience__Indicator"></div>
+            <span>Jan 2016 – Present</span>
+            <div class="Experience__JobTitle">Self-Employed</div>
+            <div class="Experience__Location">Navan, Ireland</div>
+          </div>
+          <h2 class="Experience__Title">
+            UI/UX Front End Developer [Freelance]
+          </h2>
+          <ul class="Experience__List">
+            <li>
+              Designed prototypes and wireframes using Figma, Sketch, and
+              Balsamiq.
+            </li>
+            <li>
+              Built responsive UIs with HTML, CSS, and JavaScript for all device
+              types.
+            </li>
+            <li>
+              Developed web applications and components using React, Next.js,
+              and Material UI.
+            </li>
+            <li>
+              Created high-quality vector assets for various digital projects.
+            </li>
+            <li>
+              Collaborated with clients and teams to achieve project goals and
+              incorporate feedback.
+            </li>
+            <li>
+              Updated and maintained client websites to ensure optimal
+              performance and security.
+            </li>
+            <li>Designed and developed bespoke WordPress websites.</li>
+            <li>
+              Registered and managed domains, and set up email services for
+              clients.
+            </li>
+            <li>
+              Configured and maintained web servers, and executed server
+              migrations.
+            </li>
+            <li>
+              Worked on personal projects, including concept development and
+              implementation.
+            </li>
+          </ul>
+        </div>
+
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
@@ -13,12 +63,31 @@
             <div class="Experience__JobTitle">KYP Ltd.</div>
             <div class="Experience__Location">London, UK</div>
           </div>
-          <h2 class="Experience__Title">UI Design & Support (Contract, Remote)</h2>
-          <p class="Experience__Info">
-            KYP is a London-based FinTech startup that delivers confidence and peace of
-            mind by offering deep insights, risk intelligence, and real-time
-            information, resulting in more profitable relationships.
-          </p>
+          <h2 class="Experience__Title">
+            UI/UX Design & Consulting [Contract, Remote]
+          </h2>
+          <ul class="Experience__List">
+            <li>
+              Created wireframes, prototypes, and visual designs to enhance
+              application functionality.
+            </li>
+            <li>
+              Developed user interface code using JavaScript and React.js
+              workflows.
+            </li>
+            <li>
+              Reviewed application requirements and UI designs, enhancing brand
+              style.
+            </li>
+            <li>
+              Collaborated with the development team on user interface concepts
+              and implementations.
+            </li>
+            <li>Troubleshot UI issues and debugged application code.</li>
+            <li>
+              Optimised user experience and refined application aesthetics.
+            </li>
+          </ul>
         </div>
 
         <div class="Experience__Item">
@@ -28,29 +97,47 @@
             <div class="Experience__JobTitle">Cybertonica Ltd.</div>
             <div class="Experience__Location">London, UK</div>
           </div>
-          <h2 class="Experience__Title">Front End Developer (Permanent, Remote)</h2>
-          <p class="Experience__Info">
-            Cybertonica is a FinTech startup offering security services for
-            payment gateways and online banking. Products provide fraud & risk
-            monitoring on real-time automation and decision based on machine
-            learning and enhanced behavioural insights, backed by Europe’s most
-            successful venture firms and a network of angel investors.
-          </p>
+          <h2 class="Experience__Title">
+            UI/UX Developer [Permanent, Remote]
+          </h2>
+          <ul class="Experience__List">
+            <li>
+              Designed, developed, and implemented React components to support
+              UI concepts.
+            </li>
+            <li>
+              Collaborated with international teams to achieve project
+              objectives.
+            </li>
+            <li>
+              Participated in stand-ups, managed JIRA tickets, and provided
+              weekly reports.
+            </li>
+            <li>
+              Developed a comprehensive reporting module for use by banks and
+              fraud analysts.
+            </li>
+            <li>
+              Created KPI dashboards and conceptualised future product
+              enhancements.
+            </li>
+            <li>
+              Developed a real-time card fraud simulation shop for sales
+              presentations.
+            </li>
+            <li>
+              Managed the company’s website, including updates, and technical
+              issue resolution.
+            </li>
+            <li>
+              Created SEO-optimised landing pages for Shopify app marketing.
+            </li>
+            <li>
+              Designed UI assets and maintained the company’s brand style guide.
+            </li>
+          </ul>
         </div>
-        <div class="Experience__Item">
-          <div class="Experience__Meta">
-            <div class="Experience__Indicator"></div>
-            <span>Jan 2016 – Oct 2019</span>
-            <div class="Experience__JobTitle">Freelance</div>
-            <div class="Experience__Location">Navan, Ireland</div>
-          </div>
-          <h2 class="Experience__Title">Front End Developer (Remote)</h2>
-          <p class="Experience__Info">
-            Registered as a self-employed sole trader. Provide UI design, web
-            development and server management services for local clients and
-            companies.
-          </p>
-        </div>
+
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
@@ -58,12 +145,29 @@
             <div class="Experience__JobTitle">Purple Pod Ltd.</div>
             <div class="Experience__Location">Navan, Ireland</div>
           </div>
-          <h2 class="Experience__Title">Web Developer (Permanent, On-Site)</h2>
-          <p class="Experience__Info">
-            Purple Pod is an Irish-owned web development firm serving a global
-            market of clients ranging from start-ups to blue-chip companies.
-          </p>
+          <h2 class="Experience__Title">
+            Front End Developer [Permanent, On-Site]
+          </h2>
+          <ul class="Experience__List">
+            <li>
+              Developed a custom CSS framework to streamline and standardise web
+              design.
+            </li>
+            <li>Designed and developed bespoke WordPress websites.</li>
+            <li>
+              Created high-quality vector assets for various digital projects.
+            </li>
+            <li>
+              Updated and maintained client websites to ensure optimal
+              performance and security.
+            </li>
+            <li>
+              Ensured consistency by managing the brand style guide and design
+              assets.
+            </li>
+          </ul>
         </div>
+
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
@@ -71,13 +175,30 @@
             <div class="Experience__JobTitle">Snap Printing Ltd.</div>
             <div class="Experience__Location">Dunshaughlin, Ireland</div>
           </div>
-          <h2 class="Experience__Title">Junior Web Developer (Permanent, On-Site)</h2>
-          <p class="Experience__Info">
-            A marketing company with extensive expertise across a wide range of
-            services, including graphic design, promotional products, website
-            design, web application development, SEO and pay-per-click
-            management.
-          </p>
+          <h2 class="Experience__Title">
+            Web Developer [Permanent, On-Site]
+          </h2>
+          <ul class="Experience__List">
+            <li>
+              Transformed Photoshop mock-ups into fully functional, high-quality
+              websites.
+            </li>
+            <li>
+              Implemented responsive design techniques to optimise websites for
+              mobile devices.
+            </li>
+            <li>
+              Developed a starter WordPress theme to streamline the website
+              development process.
+            </li>
+            <li>
+              Ensured cross-browser compatibility and enhanced user experience.
+            </li>
+            <li>
+              Provided client support via phone and email, delivering timely and
+              effective resolutions.
+            </li>
+          </ul>
         </div>
         <div class="Experience__Line"></div>
       </div>
@@ -128,7 +249,7 @@ export default {
   padding-left: 60px;
   padding-right: 20px;
   position: relative;
-  max-width: 700px;
+  max-width: 900px;
 
   @media screen and (min-width: 960px) {
     padding-left: 180px;
@@ -212,6 +333,16 @@ export default {
 .Experience__Info {
   font-size: 16px;
   margin-bottom: 24px;
+}
+
+.Experience__List {
+  padding-left: 20px;
+
+  li {
+    list-style-type: disc;
+    font-size: 16px;
+    line-height: 1.65;
+  }
 }
 
 .Experience__Line {
