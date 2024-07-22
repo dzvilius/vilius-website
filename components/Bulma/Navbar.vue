@@ -33,6 +33,14 @@
             CV
           </a>
           <a
+            href="https://linkedin.com/in/viliusdzemyda"
+            target="_blank"
+            rel="noopener"
+            class="navbar-item"
+          >
+            LinkedIn
+          </a>
+          <a
             href="https://github.com/dzvilius"
             target="_blank"
             rel="noopener"
@@ -41,7 +49,7 @@
             GitHub
           </a>
           <a
-            href="mailto:hello@viliusdzemyda.com?subject=Website%20contact"
+            href="mailto:dev@viliusdzemyda.com?subject=Contact"
             class="navbar-item"
           >
             Contact

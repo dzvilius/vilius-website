@@ -20,7 +20,7 @@ export default {
   name: 'Navbar',
   data() {
     return {
-      msg: '<Hello />',
+      msg: 'Hello,',
     }
   },
   components: {
@@ -50,9 +50,9 @@ $app-header-background-colour: #fff !default;
 
   @media screen and (min-width: 1024px) {
     height: 700px;
-    max-width: 900px;
-    background-size: auto 520px;
-    background-position: right 50%;
+    max-width: 1380px;
+    background-size: auto 680px;
+    background-position: right -20px;
   }
 }
 
@@ -62,12 +62,12 @@ $app-header-background-colour: #fff !default;
   text-align: left;
   position: absolute;
   top: -10px;
-  left: 24px;
+  left: 30px;
   right: 0;
 
   @media screen and (min-width: 1024px) {
     top: 120px;
-    left: 0;
+    left: 100px;
   }
 }
 
@@ -83,7 +83,7 @@ $app-header-background-colour: #fff !default;
 
 .Hero__Subtitle {
   font-size: 20px;
-  line-height: 1.8;
+  line-height: 2.4;
   margin-bottom: 34px;
 }
 </style>

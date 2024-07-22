@@ -1,7 +1,7 @@
 <template>
   <section class="section AboutSection" id="About">
     <div class="container">
-      <h2 class="AboutSection__Title">Professional Summary</h2>
+      <h2 class="AboutSection__Title">Profile</h2>
       <div class="TitleLine"></div>
       <div class="content Profile">
         <figure class="image is-200x200 ProfileImage">
@@ -11,7 +11,7 @@
       <div class="columns is-tablet">
         <div class="column is-two-thirds-tablet">
           <div class="content">
-            <h3 class="AboutSection__Subtitle">PROFILE</h3>
+            <h3 class="AboutSection__Subtitle">Professional Summary</h3>
             <p class="AboutSection__Text">
               With over a decade in UI/UX Front End Development, experienced in
               designing and building responsive web applications. Proficient
@@ -68,7 +68,7 @@ export default {
   padding-bottom: 72px;
 
   .container {
-    max-width: 900px;
+    max-width: 1000px;
   }
 }
 
@@ -89,6 +89,7 @@ export default {
 .AboutSection__Text {
   font-size: 18px;
   line-height: 1.75;
+  padding-right: 60px;
 }
 
 .AboutSection__Skills {

@@ -2,7 +2,7 @@
   <section class="section HiringSection" id="Hiring">
     <div class="container">
       <h3 class="HiringSection__Title">
-        Professional Experience
+        Experience
       </h3>
       <div class="TitleLine"></div>
       <div class="Experience">
@@ -249,7 +249,7 @@ export default {
   padding-left: 60px;
   padding-right: 20px;
   position: relative;
-  max-width: 900px;
+  max-width: 1000px;
 
   @media screen and (min-width: 960px) {
     padding-left: 180px;

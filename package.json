@@ -2,7 +2,7 @@
   "name": "viliusdzemyda.com",
   "description": "Static site built with Vue and Nuxt.js",
   "version": "1.0.0",
-  "author": "Vilius Dzemyda <hello@viliusdzemyda.com>",
+  "author": "Vilius Dzemyda <dev@viliusdzemyda.com>",
   "license": "MIT",
   "scripts": {
     "dev": "nuxt",

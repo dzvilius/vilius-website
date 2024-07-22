@@ -1,5 +1,5 @@
 <template>
-  <a href="mailto:hello@viliusdzemyda.com?subject=Website%20contact" class="button is-primary ButtonMail">Say Hi</a>
+  <a href="mailto:dev@viliusdzemyda.com?subject=GetInTouch" class="button is-primary ButtonMail">Get In Touch</a>
 </template>
 
 <style lang="scss" scoped>
