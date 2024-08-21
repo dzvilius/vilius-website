@@ -9,6 +9,32 @@
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
+            <span>Aug 2024 – Present</span>
+            <div class="Experience__JobTitle">Xtremepush Ltd.</div>
+            <div class="Experience__Location">Dublin, Ireland</div>
+          </div>
+          <h2 class="Experience__Title">
+            Front End Developer <span>[Full-Time, Remote]</span>
+          </h2>
+          <ul class="Experience__List">
+            <li>
+              Develop and deploy interactive promotional games for gaming industry clients.
+            </li>
+            <li>
+              Utilise strong JavaScript, CSS, and PIXI.JS skills for dynamic front-end experiences.
+            </li>
+            <li>
+              Transform designs into engaging, interactive user interfaces.
+            </li>
+            <li>
+              Collaborate remotely with a global team.
+            </li>
+          </ul>
+        </div>
+
+        <div class="Experience__Item">
+          <div class="Experience__Meta">
+            <div class="Experience__Indicator"></div>
             <span>Jan 2016 – Present</span>
             <div class="Experience__JobTitle">Self-Employed</div>
             <div class="Experience__Location">Navan, Ireland</div>
