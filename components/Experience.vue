@@ -18,13 +18,10 @@
           </h2>
           <ul class="Experience__List">
             <li>
-              Develop and deploy interactive promotional games for gaming industry clients.
-            </li>
-            <li>
               Utilise strong JavaScript, CSS, and PIXI.JS skills for dynamic front-end experiences.
             </li>
             <li>
-              Transform designs into engaging, interactive user interfaces.
+              Transform designs into engaging, interactive user interfaces for Gamification campaigns.
             </li>
             <li>
               Collaborate remotely with a global team.
