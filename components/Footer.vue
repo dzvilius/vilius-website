@@ -12,6 +12,15 @@
           <IconGitHub class="SocialIcon" />
         </a>
         <a
+          href="https://open.spotify.com/user/viliusdzemyda?si=484f22461a3a49e5"
+          class="SocialLink"
+          target="_blank"
+          rel="noopener"
+          aria-label="Spotify"
+        >
+          <IconSpotify class="SocialIcon" />
+        </a>
+        <a
           href="mailto:dev@viliusdzemyda.com?subject=Contact"
           class="SocialLink"
           aria-label="Mail"
