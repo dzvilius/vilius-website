@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~assets/scss/_variables.scss';
+@use '@/assets/scss/variables' as *;
 
 $app-header-background-colour: #000 !default;
 

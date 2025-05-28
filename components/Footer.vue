@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~assets/scss/_variables.scss';
+@use '@/assets/scss/variables' as *;
 
 $social-icon-background: $color-two !default;
 $social-icon-color: #000 !default;

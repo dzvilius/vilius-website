@@ -5,7 +5,7 @@
       <div class="TitleLine"></div>
       <div class="content Profile">
         <figure class="image is-200x200 ProfileImage">
-          <img src="images/vilius.png" class="is-rounded" alt="Vilius Dzemyda" />
+          <img src="/images/vilius.png" class="is-rounded" alt="Vilius Dzemyda" />
         </figure>
       </div>
       <div class="columns is-tablet">
@@ -61,7 +61,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~assets/scss/_variables.scss';
+@use '@/assets/scss/variables' as *;
 
 .AboutSection {
   background: #180113;

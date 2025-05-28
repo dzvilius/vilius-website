@@ -1,7 +1,8 @@
-import Vue from 'vue'
 import VueScrollTo from 'vue-scrollto'
 
-Vue.use(VueScrollTo, {
-  duration: 1000,
-  offset: -72,
+export default defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.vueApp.use(VueScrollTo, {
+    duration: 1000,
+    offset: -72,
+  })
 })

@@ -242,7 +242,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~assets/scss/_variables.scss';
+@use '@/assets/scss/variables' as *;
 
 .HiringSection {
   background: #000;

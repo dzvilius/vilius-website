@@ -1,7 +1,7 @@
 <template>
   <div class="App">
     <Navbar class="AppNavbar"/>
-    <nuxt class="AppContainer"/>
+    <NuxtPage class="AppContainer"/>
   </div>
 </template>
 
@@ -15,5 +15,5 @@ export default {
 }
 </script>
 
-<style src="~/assets/scss/style.scss" lang="scss">
+<style src="@/assets/scss/style.scss" lang="scss">
 </style>

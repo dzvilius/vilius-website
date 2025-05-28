@@ -2,20 +2,11 @@
 // Author: Vilius Dzemyda
 // Built with Sass - http://sass-lang.com/
 
-@import '_variables.scss';
+// Import our custom variables
+@use 'variables' as *;
 
-// BULMA CSS
-// =============================================================================
-
-@import 'bulma/sass/utilities/_all';
-@import 'bulma/sass/base/_all';
-@import 'bulma/sass/elements/button';
-@import 'bulma/sass/elements/container';
-@import 'bulma/sass/elements/content';
-@import 'bulma/sass/elements/image';
-@import 'bulma/sass/components/navbar';
-@import 'bulma/sass/grid/_all';
-@import 'bulma/sass/layout/section';
+// Import Bulma - it will use its default variables
+@use 'bulma/bulma';
 
 // Theme
 // =============================================================================

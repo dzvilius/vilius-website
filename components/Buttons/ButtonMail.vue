@@ -3,7 +3,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import '~assets/scss/_variables.scss';
+@use '@/assets/scss/variables' as *;
 
 .ButtonMail {
   box-shadow: 2px 3px 0px #555577;
