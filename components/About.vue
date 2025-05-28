@@ -64,7 +64,7 @@ export default {
 @import '~assets/scss/_variables.scss';
 
 .AboutSection {
-  background: #f4f6f8;
+  background: #000;
   padding-bottom: 72px;
 
   .container {

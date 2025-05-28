@@ -245,7 +245,7 @@ export default {
 @import '~assets/scss/_variables.scss';
 
 .HiringSection {
-  background: #fff;
+  background: #000;
 }
 
 .HiringSection__Title {

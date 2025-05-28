@@ -32,14 +32,13 @@ export default {
 <style lang="scss" scoped>
 @import '~assets/scss/_variables.scss';
 
-$app-header-background-colour: #fff !default;
+$app-header-background-colour: #000 !default;
 
 .AppHeader {
   background-color: $app-header-background-colour;
 }
 
 .Hero {
-  background-image: url('~assets/images/intro.jpg');
   background-size: auto 380px;
   background-position: right 70%;
   background-repeat: no-repeat;
