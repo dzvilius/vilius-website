@@ -20,7 +20,7 @@ export default defineNuxtConfig({
         {
           rel: 'stylesheet',
           href:
-            'https://fonts.googleapis.com/css?family=Monoton|Ubuntu:400,500,700',
+            'https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:wght@400;500;700&display=swap',
         },
       ],
       bodyAttrs: {

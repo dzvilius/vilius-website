@@ -64,7 +64,7 @@ export default {
 @use '@/assets/scss/variables' as *;
 
 .AboutSection {
-  background: #180113;
+  background: #000;
   padding-bottom: 72px;
 
   .container {
@@ -75,8 +75,9 @@ export default {
 .AboutSection__Title {
   color: $color-two;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 22px;
   text-align: center;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .AboutSection__Subtitle {

@@ -62,6 +62,7 @@ $social-icon-color: #000 !default;
 
 .AppFooter {
   text-align: center;
+  background: #000;
 }
 
 .AppFooter__Social {

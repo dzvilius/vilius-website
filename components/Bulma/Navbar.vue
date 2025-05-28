@@ -85,15 +85,16 @@ $navbar-menu-background-color: #fff !default;
 $icon-menu-color: $color-ink !default;
 
 .navbar-item {
-  font-size: 15px;
+  font-size: 11px;
   padding: 6px 24px;
   text-transform: uppercase;
   font-weight: 700;
   color: $color-two;
+  font-family: 'Press Start 2P', cursive;
 
   @media screen and (min-width: 1024px) {
     padding: 0.5rem 1rem;
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 

@@ -6,7 +6,7 @@
 @use '@/assets/scss/variables' as *;
 
 .Logo {
-  font-family: 'Monoton', sans-serif;
+  font-family: 'Press Start 2P', cursive;
   background: rgba(255, 255, 255, 0);
   color: $color-two;
   padding: 3px 6px 0 6px;
