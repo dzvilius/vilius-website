@@ -4,7 +4,7 @@
       <h2 class="AboutSection__Title">Profile</h2>
       <div class="TitleLine"></div>
       <div class="content Profile">
-        <figure class="image is-200x200 ProfileImage">
+        <figure class="image ProfileImage">
           <img src="/images/vilius.png" class="is-rounded" alt="Vilius Dzemyda" />
         </figure>
       </div>
@@ -115,6 +115,8 @@ export default {
   margin-left: auto;
   position: relative;
   top: -40px;
+  width: 200px;
+  height: 200px;
 
   img {
     box-shadow: 2px 12px 0px #aaa;
