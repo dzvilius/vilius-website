@@ -64,7 +64,7 @@ export default {
 @import '~assets/scss/_variables.scss';
 
 .AboutSection {
-  background: #000;
+  background: #180113;
   padding-bottom: 72px;
 
   .container {
@@ -73,14 +73,14 @@ export default {
 }
 
 .AboutSection__Title {
-  color: $color-one;
+  color: $color-two;
   font-weight: 500;
   font-size: 32px;
   text-align: center;
 }
 
 .AboutSection__Subtitle {
-  color: $color-one;
+  color: $color-two;
   font-weight: 600;
   font-size: 20px;
   text-transform: uppercase;
@@ -98,7 +98,7 @@ export default {
 }
 
 .TitleLine {
-  background: #db5c6e;
+  background: $color-two;
   margin: 12px auto;
   border-radius: 4px;
   height: 4px;
@@ -117,7 +117,7 @@ export default {
   top: -40px;
 
   img {
-    box-shadow: 2px 12px 0px #dcefff;
+    box-shadow: 2px 12px 0px #aaa;
   }
 }
 </style>

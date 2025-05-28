@@ -89,7 +89,7 @@ $icon-menu-color: $color-ink !default;
   padding: 6px 24px;
   text-transform: uppercase;
   font-weight: 700;
-  color: $color-one;
+  color: $color-two;
 
   @media screen and (min-width: 1024px) {
     padding: 0.5rem 1rem;

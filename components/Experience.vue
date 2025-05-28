@@ -249,14 +249,14 @@ export default {
 }
 
 .HiringSection__Title {
-  color: $color-one;
+  color: $color-two;
   font-weight: 500;
   font-size: 32px;
   text-align: center;
 }
 
 .TitleLine {
-  background: #66eecc;
+  background: $color-two;
   margin: 12px auto;
   border-radius: 4px;
   height: 4px;
@@ -310,7 +310,7 @@ export default {
   left: -42px;
   height: 16px;
   width: 16px;
-  border: 2px solid #66eecc;
+  border: 2px solid $color-two;
   background: #fff;
   border-radius: 100px;
   z-index: 2;
@@ -325,6 +325,7 @@ export default {
   margin-bottom: 18px;
   font-size: 16px;
   font-weight: 500;
+  color: $color-two;
 
   @media screen and (min-width: 960px) {
     position: absolute;
@@ -351,6 +352,7 @@ export default {
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 12px;
+  color: $color-two;
 
   span {
     font-weight: 400;

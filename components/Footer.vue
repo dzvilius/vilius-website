@@ -57,8 +57,8 @@ export default {
 <style lang="scss" scoped>
 @import '~assets/scss/_variables.scss';
 
-$social-icon-background: #f8fafb !default;
-$social-icon-color: $color-one !default;
+$social-icon-background: $color-two !default;
+$social-icon-color: #000 !default;
 
 .AppFooter {
   text-align: center;
@@ -91,7 +91,7 @@ $social-icon-color: $color-one !default;
 .AppFooter__Copyright {
   padding-top: 1rem;
   padding-bottom: 2rem;
-  color: #4f5670;
+  color: #fff;
   font-size: 14px;
 }
 </style>

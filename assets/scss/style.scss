@@ -21,11 +21,11 @@
 // =============================================================================
 
 ::-moz-selection {
-  background-color: #66eecc;
+  background-color: $color-two;
   color: #222;
 }
 
 ::selection {
-  background-color: #66eecc;
+  background-color: $color-two;
   color: #222;
 }

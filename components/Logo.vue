@@ -7,8 +7,8 @@
 
 .Logo {
   font-family: 'Monoton', sans-serif;
-  background: rgba(255, 255, 255, 0.5);
-  color: #223344;
+  background: rgba(255, 255, 255, 0);
+  color: $color-two;
   padding: 3px 6px 0 6px;
   border-radius: 4px;
   line-height: 1;
