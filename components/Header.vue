@@ -125,12 +125,12 @@ $app-header-background-colour: #000 !default;
   background-repeat: no-repeat;
   height: 400px;
   position: relative;
-  max-width: 600px;
+  // max-width: 600px;
   margin: 0 auto;
 
   @media screen and (min-width: 1024px) {
     height: 400px;
-    max-width: 1380px;
+    // max-width: 1380px;
     background-size: auto 680px;
     background-position: right -20px;
   }

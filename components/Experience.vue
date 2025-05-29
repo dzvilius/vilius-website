@@ -251,12 +251,13 @@ export default {
 .HiringSection__Title {
   color: $color-two;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 28px;
   text-align: center;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .TitleLine {
-  background: $color-two;
+  background: #aaa;
   margin: 12px auto;
   border-radius: 4px;
   height: 4px;
@@ -311,7 +312,7 @@ export default {
   height: 16px;
   width: 16px;
   border: 2px solid $color-two;
-  background: #fff;
+  background: $color-two;
   border-radius: 100px;
   z-index: 2;
 

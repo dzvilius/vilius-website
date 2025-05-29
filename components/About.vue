@@ -65,6 +65,7 @@ export default {
 
 .AboutSection {
   background: #000;
+  padding-top: 0;
   padding-bottom: 72px;
 
   .container {
@@ -75,7 +76,7 @@ export default {
 .AboutSection__Title {
   color: $color-two;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 28px;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
 }
@@ -83,8 +84,10 @@ export default {
 .AboutSection__Subtitle {
   color: $color-two;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
+  font-family: 'Press Start 2P', cursive;
+
 }
 
 .AboutSection__Text {
@@ -99,7 +102,7 @@ export default {
 }
 
 .TitleLine {
-  background: $color-two;
+  background: #aaa;
   margin: 12px auto;
   border-radius: 4px;
   height: 4px;
