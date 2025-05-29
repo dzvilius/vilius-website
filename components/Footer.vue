@@ -63,6 +63,7 @@ $social-icon-color: #000 !default;
 .AppFooter {
   text-align: center;
   background: #000;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .AppFooter__Social {
