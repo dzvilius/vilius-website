@@ -1,18 +1,15 @@
 <template>
   <header class="AppHeader" id="Home">
     <section class="Hero">
-      <div id="hero-container">
-        <div id="hero-canvas" ref="canvasContainer"></div>
-        <div id="hero-content">Frontend Developer</div>
-      </div>
-      <!-- <div class="Hero__Content">
+      <div class="Hero__Canvas" ref="canvasContainer"></div>
+      <div class="Hero__Content">
         <p class="Hero__Title">{{ msg }}</p>
         <h1 class="Hero__Subtitle">
           My name is Vilius,<br />
           I am UI/UX Front End Developer based in Ireland.
         </h1>
         <ButtonMail />
-      </div> -->
+      </div>
     </section>
   </header>
 </template>
@@ -120,20 +117,11 @@ $app-header-background-colour: #000 !default;
 }
 
 .Hero {
-  background-size: auto 380px;
-  background-position: right 70%;
-  background-repeat: no-repeat;
-  height: 400px;
   position: relative;
-  // max-width: 600px;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
   margin: 0 auto;
-
-  @media screen and (min-width: 1024px) {
-    height: 400px;
-    // max-width: 1380px;
-    background-size: auto 680px;
-    background-position: right -20px;
-  }
 }
 
 .Hero__Canvas {
@@ -142,7 +130,6 @@ $app-header-background-colour: #000 !default;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
 }
 
 .Hero__Content {
@@ -150,21 +137,25 @@ $app-header-background-colour: #000 !default;
   margin: 0 auto;
   text-align: left;
   position: absolute;
-  top: -10px;
+  top: 70px;
   left: 30px;
   right: 0;
   z-index: 2;
+  color: $color-two;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px;
 
   @media screen and (min-width: 1024px) {
-    top: 120px;
-    left: 100px;
+    top: 100px;
+    left: 160px;
   }
 }
 
 .Hero__Title {
-  font-size: 28px;
+  font-size: 24px;
   margin-bottom: 12px;
   font-weight: 500;
+  color: $color-two;
 
   @media screen and (min-width: 1024px) {
     font-size: 32px;
@@ -172,36 +163,9 @@ $app-header-background-colour: #000 !default;
 }
 
 .Hero__Subtitle {
-  font-size: 20px;
+  font-size: 14px;
   line-height: 2.4;
   margin-bottom: 34px;
-}
-
-#hero-container {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
-}
-
-#hero-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-#hero-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: $color-two;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 24px;
-  text-shadow: 0 0 10px $color-two, 0 0 20px $color-two, 0 0 30px $color-two;
-  pointer-events: none;
-  user-select: none;
+  color: #aaa
 }
 </style>
