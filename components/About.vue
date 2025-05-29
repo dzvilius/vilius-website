@@ -13,7 +13,7 @@
           <div class="content">
             <h3 class="AboutSection__Subtitle">Professional Summary</h3>
             <p class="AboutSection__Text">
-              With over a decade in UI/UX Front End Development, experienced in
+              With over a decade in Frontend Development, experienced in
               designing and building responsive web applications. Proficient
               with Figma, Sketch, and Balsamiq for prototypes and wireframes,
               and skilled in JavaScript, HTML, CSS, React, Next.js, and Material

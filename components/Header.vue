@@ -6,7 +6,7 @@
         <p class="Hero__Title">{{ msg }}</p>
         <h1 class="Hero__Subtitle">
           My name is Vilius,<br />
-          I am UI/UX Front End Developer based in Ireland.
+          I am Frontend Developer based in Ireland.
         </h1>
         <ButtonMail />
       </div>

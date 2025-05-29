@@ -37,7 +37,7 @@
             <div class="Experience__Location">Navan, Ireland</div>
           </div>
           <h2 class="Experience__Title">
-            UI/UX Front End Developer <span>[Freelance]</span>
+            Frontend Developer <span>[Freelance]</span>
           </h2>
           <ul class="Experience__List">
             <li>

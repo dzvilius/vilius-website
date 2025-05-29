@@ -4,7 +4,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en-gb',
       },
-      title: 'Vilius Dzemyda | UI/UX Front End Developer',
+      title: 'Vilius Dzemyda | Frontend Developer',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -12,7 +12,7 @@ export default defineNuxtConfig({
           key: 'description',
           name: 'description',
           content:
-            'UI/UX Front End Developer based in Ireland with expertise in UX design and modern web technologies.',
+            'Frontend Developer based in Ireland with expertise in UX design and modern web technologies.',
         },
       ],
       link: [
