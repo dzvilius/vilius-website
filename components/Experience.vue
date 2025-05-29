@@ -274,6 +274,8 @@ export default {
   padding-right: 20px;
   position: relative;
   max-width: 1000px;
+  pointer-events: none;
+  user-select: none;
 
   @media screen and (min-width: 960px) {
     padding-left: 180px;

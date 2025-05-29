@@ -67,6 +67,8 @@ export default {
   background: #000;
   padding-top: 0;
   padding-bottom: 72px;
+  pointer-events: none;
+  user-select: none;
 
   .container {
     max-width: 1000px;
