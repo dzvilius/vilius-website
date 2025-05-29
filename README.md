@@ -2,6 +2,8 @@
 
 This is my online resume website.
 
+[Live Preview](https://viliusdzemyda.com/)
+
 ## UX
 
 #### User Stories
@@ -14,18 +16,3 @@ This is my online resume website.
 - As an employer, I want to send an email to the developer, so that I can describe the job requirements.
 - As an employer, I want to view the LinkedIn profile, so that I can see more professional details.
 - As an employer, I want to view the contact details, so that I can get in touch.
-
-
-#### Supporting Materials (v1)
-
-- [Mindmap](ux/v1/Mindmap_v1.png)
-
-**Wireframes**
-
-- [Home](ux/v1/Wireframes/Home.png)
-- [Portfolio] - Coming soon...
-
-**Designs**
-
-- Home:  [Small](ux/v1/Designs/Home_small.png) / [Medium](ux/v1/Designs/Home_medium.png)
-
