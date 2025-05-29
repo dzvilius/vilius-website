@@ -24,7 +24,7 @@ export default defineNuxtConfig({
         },
       ],
       bodyAttrs: {
-        class: 'has-navbar-fixed-top',
+        class: '',
       },
     },
   },

@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar is-fixed-top"
+    class="navbar"
     role="navigation"
     aria-label="main navigation"
   >
@@ -81,16 +81,28 @@ export default {
 <style lang="scss" scoped>
 @use '@/assets/scss/variables' as *;
 
-$navbar-menu-background-color: #fff !default;
-$icon-menu-color: $color-ink !default;
+$navbar-menu-background-color: #aaa !default;
+$icon-menu-color: $color-two !default;
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: none;
+}
+
 
 .navbar-item {
-  font-size: 11px;
+  font-size: 10px;
   padding: 6px 24px;
   text-transform: uppercase;
   font-weight: 700;
   color: $color-two;
   font-family: 'Press Start 2P', cursive;
+  background: none;
 
   @media screen and (min-width: 1024px) {
     padding: 0.5rem 1rem;
@@ -105,6 +117,7 @@ $icon-menu-color: $color-ink !default;
 }
 
 .navbar-burger {
+  margin-inline-end: 0.5rem;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -114,22 +127,22 @@ $icon-menu-color: $color-ink !default;
 
 .navbar-menu {
   @media screen and (max-width: 1023px) {
-    right: 16px;
-    top: 74px;
+    right: 50px;
+    top: 38px;
     position: absolute;
-    width: 120px;
+    width: 140px;
     background-color: $navbar-menu-background-color;
     border-radius: 8px;
     padding: 12px 0;
-    box-shadow: 3px 6px 0px #dcefff;
-    border: 1px solid #dcefff;
+    box-shadow: 3px 6px 0px $color-two;
+    border: 1px solid $color-two;
   }
 }
 
 .MenuIcon {
   position: absolute;
   top: calc(50% - 20px);
-  left: calc(50% - 20px);
+  left: 0;
   width: 40px;
   height: 40px;
   stroke-width: 2;
