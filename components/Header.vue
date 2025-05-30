@@ -89,8 +89,19 @@ export default {
                 p.width * 0.5 + x * this.perspectiveSpreadStart,
                 p.width * 0.5 + x * this.perspectiveSpreadEnd
               )
-              const alpha = p.map(y, 0, p.height, 255, 0, true)
-              p.stroke(this.gridColor.r, this.gridColor.g, this.gridColor.b, alpha)
+
+              // Color gradient from grid color to black at 75%
+              let r, g, b
+              if (y < p.height * 0.95) {
+                const fadeAmount = p.map(y, 0, p.height * 0.95, 0, 1, true)
+                r = p.lerp(this.gridColor.r, 0, fadeAmount)
+                g = p.lerp(this.gridColor.g, 0, fadeAmount)
+                b = p.lerp(this.gridColor.b, 0, fadeAmount)
+              } else {
+                r = g = b = 0
+              }
+
+              p.stroke(r, g, b)
               p.point(interX, y)
             }
           }
