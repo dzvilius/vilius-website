@@ -5,7 +5,7 @@
       <div class="TitleLine"></div>
       <div class="content Profile">
         <figure class="image ProfileImage">
-          <img src="/images/vilius.png" class="is-rounded" alt="Vilius Dzemyda" />
+          <img src="/images/my_avatar.png" class="is-rounded" alt="Avatar" />
         </figure>
       </div>
       <div class="columns is-tablet">
@@ -125,7 +125,7 @@ export default {
   height: 200px;
 
   img {
-    box-shadow: 2px 12px 0px #aaa;
+    border: 1px solid $color-two;
   }
 }
 </style>
