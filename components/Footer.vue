@@ -12,14 +12,23 @@
           <IconGitHub class="SocialIcon" />
         </a>
         <a
-          href="https://open.spotify.com/user/viliusdzemyda?si=484f22461a3a49e5"
+          href="https://www.instagram.com/dzvilius/"
+          class="SocialLink"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram"
+        >
+          <IconInstagram class="SocialIcon" />
+        </a>
+        <a
+          href="https://open.spotify.com/user/viliusdzemyda"
           class="SocialLink"
           target="_blank"
           rel="noopener"
           aria-label="Spotify"
         >
           <IconSpotify class="SocialIcon" />
-        </a>
+      </a>
         <a
           href="mailto:dev@viliusdzemyda.com?subject=Contact"
           class="SocialLink"
@@ -39,6 +48,7 @@
 import IconGitHub from '~/components/Icons/IconGitHub.vue'
 import IconSpotify from '~/components/Icons/IconSpotify.vue'
 import IconMail from '~/components/Icons/IconMail.vue'
+import IconInstagram from '~/components/Icons/IconInstagram.vue'
 
 export default {
   data: function() {
@@ -50,6 +60,7 @@ export default {
     IconGitHub,
     IconSpotify,
     IconMail,
+    IconInstagram,
   },
 }
 </script>
