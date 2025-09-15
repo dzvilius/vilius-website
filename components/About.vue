@@ -5,7 +5,7 @@
       <div class="TitleLine"></div>
       <div class="content Profile">
         <figure class="image ProfileImage">
-          <img src="/images/my_avatar.png" class="is-rounded" alt="Avatar" />
+          <img src="/images/avatar.png" class="is-rounded" alt="Avatar" />
         </figure>
       </div>
       <div class="columns is-tablet">
