@@ -32,7 +32,7 @@
         <div class="Experience__Item">
           <div class="Experience__Meta">
             <div class="Experience__Indicator"></div>
-            <span>Jan 2016 – Present</span>
+            <span>Jan 2016 – Dec 2023</span>
             <div class="Experience__JobTitle">Self-Employed</div>
             <div class="Experience__Location">Navan, Ireland</div>
           </div>
