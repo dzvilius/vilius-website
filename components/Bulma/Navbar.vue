@@ -26,13 +26,6 @@
       >
         <div class="navbar-end">
           <a
-            href="./files/Vilius_Dzemyda_CV.pdf"
-            target="_blank"
-            class="navbar-item"
-          >
-            CV
-          </a>
-          <a
             href="https://linkedin.com/in/viliusdzemyda"
             target="_blank"
             rel="noopener"
