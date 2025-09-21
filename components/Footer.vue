@@ -21,15 +21,6 @@
           <IconInstagram class="SocialIcon" />
         </a>
         <a
-          href="https://open.spotify.com/user/viliusdzemyda"
-          class="SocialLink"
-          target="_blank"
-          rel="noopener"
-          aria-label="Spotify"
-        >
-          <IconSpotify class="SocialIcon" />
-      </a>
-        <a
           href="mailto:dev@viliusdzemyda.com?subject=Contact"
           class="SocialLink"
           aria-label="Mail"
@@ -46,7 +37,7 @@
 
 <script>
 import IconGitHub from '~/components/Icons/IconGitHub.vue'
-import IconSpotify from '~/components/Icons/IconSpotify.vue'
+// import IconSpotify from '~/components/Icons/IconSpotify.vue'
 import IconMail from '~/components/Icons/IconMail.vue'
 import IconInstagram from '~/components/Icons/IconInstagram.vue'
 
@@ -58,7 +49,7 @@ export default {
   },
   components: {
     IconGitHub,
-    IconSpotify,
+    // IconSpotify,
     IconMail,
     IconInstagram,
   },
